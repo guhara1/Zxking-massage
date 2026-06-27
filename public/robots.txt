@@ -4,4 +4,4 @@ Allow: /
 # 관리자/예약 관련 경로가 있다면 여기서 제외
 # Disallow: 
 
-Sitemap: https://sudogwon-massage.example.com/sitemap-index.xml
+Sitemap: https://zxking-massage.pages.dev/sitemap-index.xml

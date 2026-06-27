@@ -7,7 +7,7 @@ import type { SiteConfig } from '../lib/types';
 export const siteConfig: SiteConfig = {
   name: '수도권 출장마사지',
   // astro.config.mjs 의 SITE_URL과 동일하게 유지
-  url: 'https://sudogwon-massage.example.com',
+  url: 'https://zxking-massage.pages.dev',
   title: '서울·경기·인천 출장마사지｜수도권 홈타이 방문 가능 지역 안내',
   description:
     '서울·경기·인천 출장마사지·홈타이 예약 전 강남, 잠실, 수원, 분당, 부천, 송도, 부평 등 수도권 주요 생활권별 방문 가능 지역을 확인하세요.',
@@ -42,7 +42,7 @@ export const siteConfig: SiteConfig = {
   ],
   organization: {
     name: '수도권 출장마사지 안내',
-    url: 'https://sudogwon-massage.example.com',
+    url: 'https://zxking-massage.pages.dev',
     description:
       '서울·경기·인천 수도권 출장마사지·홈타이 방문 가능 지역과 예약 전 확인사항을 안내합니다.',
   },
