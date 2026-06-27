@@ -2,15 +2,18 @@ import type { SiteConfig } from '../lib/types';
 
 /**
  * 사이트 전역 설정
- * 스펙 2절 SEO 설정 기준
+ * - 상호: X 킹마사지
+ * - 전화예약: 0508-202-4719
+ * - 디스크립션: 80자 이내
  */
 export const siteConfig: SiteConfig = {
-  name: '수도권 출장마사지',
+  name: 'X 킹마사지',
   // astro.config.mjs 의 SITE_URL과 동일하게 유지
   url: 'https://zxking-massage.pages.dev',
-  title: '서울·경기·인천 출장마사지｜수도권 홈타이 방문 가능 지역 안내',
+  title: 'X 킹마사지｜수도권 출장마사지·홈타이 방문 가능 지역 안내',
+  // 80자 이내 디스크립션
   description:
-    '서울·경기·인천 출장마사지·홈타이 예약 전 강남, 잠실, 수원, 분당, 부천, 송도, 부평 등 수도권 주요 생활권별 방문 가능 지역을 확인하세요.',
+    '수도권 출장마사지·홈타이. 강남·송도·수원·분당 방문 가능 지역과 예약 전 확인사항 안내.',
   focusKeyword: '출장마사지',
   subKeywords: [
     '서울 출장마사지',
@@ -40,10 +43,14 @@ export const siteConfig: SiteConfig = {
     '청라 출장마사지',
     '검단 출장마사지',
   ],
+  // 전화예약 정보
+  phone: '0508-202-4719',
+  phoneDisplay: '0508-202-4719',
+  phoneTel: '05082024719',
   organization: {
-    name: '수도권 출장마사지 안내',
+    name: 'X 킹마사지',
     url: 'https://zxking-massage.pages.dev',
     description:
-      '서울·경기·인천 수도권 출장마사지·홈타이 방문 가능 지역과 예약 전 확인사항을 안내합니다.',
+      '수도권 출장마사지·홈타이 방문 가능 지역과 예약 전 확인사항을 안내합니다.',
   },
 };

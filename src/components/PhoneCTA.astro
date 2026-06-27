@@ -1,0 +1,30 @@
+---
+/**
+ * 전화 CTA 섹션 컴포넌트
+ * 모든 주요 페이지 하단에 노출되는 예약 유도 섹션
+ */
+import { siteConfig } from '../data/site';
+
+interface Props {
+  title?: string;
+  desc?: string;
+}
+
+const {
+  title = '예약이 필요하신가요?',
+  desc = '수도권 방문 가능 지역과 예약 시간을 전화로 안내받으세요. 예약 전 확인사항을 먼저 보시면 더 빠릅니다.',
+} = Astro.props;
+---
+
+{siteConfig.phoneTel && (
+  <section class="phone-cta">
+    <h2 class="phone-cta__title">{title}</h2>
+    <p class="phone-cta__desc">{desc}</p>
+    <a href={`tel:${siteConfig.phoneTel}`} class="phone-cta__number">
+      📞 {siteConfig.phoneDisplay}
+    </a>
+    <div style="margin-top: 28px; position: relative;">
+      <a href="/check/" class="btn btn-outline btn-sm">예약 전 확인사항 보기</a>
+    </div>
+  </section>
+)}

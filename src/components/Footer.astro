@@ -1,6 +1,6 @@
 ---
 /**
- * 사이트 푸터 - 운영 기준, 법적 안내, 불법·선정적 서비스 불가 명확화
+ * 사이트 푸터 - 상호, 전화예약, 운영 기준, 법적 안내
  */
 import { siteConfig } from '../data/site';
 const year = new Date().getFullYear();
@@ -10,11 +10,18 @@ const year = new Date().getFullYear();
   <div class="container">
     <div class="site-footer__grid">
       <div>
-        <div class="site-footer__logo">{siteConfig.name}</div>
+        <div class="site-footer__logo">
+          <span class="gold-text">X 킹</span>마사지
+        </div>
         <p class="site-footer__desc">
           서울·경기·인천 수도권 출장마사지·홈타이 방문 가능 지역과 예약 전 확인사항을 안내합니다.
           행정구역·역세권·생활권·이용 장소별 기준을 확인하세요.
         </p>
+        {siteConfig.phoneTel && (
+          <a href={`tel:${siteConfig.phoneTel}`} class="site-footer__phone">
+            📞 {siteConfig.phoneDisplay}
+          </a>
+        )}
       </div>
       <div>
         <div class="site-footer__title">지역 안내</div>
@@ -47,6 +54,7 @@ const year = new Date().getFullYear();
 
     <div class="site-footer__legal">
       <strong>※ 서비스 운영 안내</strong><br />
+      상호: {siteConfig.name} ｜ 전화예약: {siteConfig.phoneDisplay}<br />
       본 사이트는 합법적인 방문형 건강 관리(스포츠 마사지, 체형 관리 등) 정보 안내 목적으로 운영됩니다.
       불법 행위 및 선정적 서비스는 일절 제공하지 않으며, 관련 문의는 받지 않습니다.
       허위 후기·가짜 평점·과장된 할인 문구는 사용하지 않습니다.
@@ -57,3 +65,17 @@ const year = new Date().getFullYear();
     </div>
   </div>
 </footer>
+
+<!-- 모바일 고정 전화 CTA 바 -->
+{siteConfig.phoneTel && (
+  <div class="mobile-call-bar">
+    <div class="mobile-call-bar__inner">
+      <div class="mobile-call-bar__label">
+        전화예약<br /><strong>{siteConfig.phoneDisplay}</strong>
+      </div>
+      <a href={`tel:${siteConfig.phoneTel}`} class="btn btn-phone">
+        📞 지금 전화하기
+      </a>
+    </div>
+  </div>
+)}

@@ -130,6 +130,9 @@ export interface SiteConfig {
   description: string;
   focusKeyword: string;
   subKeywords: string[];
+  phone?: string;          // 표시용 (예: 0508-202-4719)
+  phoneDisplay?: string;   // UI 표시용
+  phoneTel?: string;       // tel: 링크용 (하이픈 제거)
   organization: {
     name: string;
     url: string;

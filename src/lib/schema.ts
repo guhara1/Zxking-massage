@@ -66,7 +66,8 @@ export function breadcrumbSchema(items: BreadcrumbItem[]) {
   };
 }
 
-/** Organization 스키마 (오프라인 매장 없음 → LocalBusiness 사용 안 함) */
+/** Organization 스키마 (오프라인 매장 없음 → LocalBusiness 사용 안 함)
+ *  contactPoint 로 전화예약 번호 노출 */
 export function organizationSchema() {
   return {
     '@context': 'https://schema.org',
@@ -74,6 +75,17 @@ export function organizationSchema() {
     name: siteConfig.organization.name,
     url: siteConfig.organization.url,
     description: siteConfig.organization.description,
+    ...(siteConfig.phoneTel
+      ? {
+          contactPoint: {
+            '@type': 'ContactPoint',
+            telephone: `+82-${siteConfig.phoneDisplay.replace(/^0/, '')}`,
+            contactType: 'reservations',
+            areaServed: ['서울', '경기', '인천'],
+            availableLanguage: ['Korean'],
+          },
+        }
+      : {}),
   };
 }
 

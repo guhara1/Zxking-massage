@@ -1,22 +1,28 @@
 ---
 /**
  * 사이트 헤더 / 네비게이션
+ * 상호: X 킹마사지, 전화예약 버튼 포함
  */
 import { siteConfig } from '../data/site';
 ---
 
 <header class="site-header">
   <div class="container site-header__inner">
-    <a href="/" class="site-header__logo">{siteConfig.name}</a>
+    <a href="/" class="site-header__logo">
+      <span class="badge-x">X</span>
+      <span><span class="gold-text">킹</span>마사지</span>
+    </a>
     <nav class="site-nav" aria-label="주요 메뉴">
       <a href="/seoul/">서울</a>
       <a href="/gyeonggi/">경기</a>
       <a href="/incheon/">인천</a>
       <a href="/life/">생활권</a>
       <a href="/check/">예약 전 확인</a>
-      <a href="/contact/" class="btn btn-primary" style="padding: 8px 18px; font-size: 0.88rem;">
-        고객센터
-      </a>
+      {siteConfig.phoneTel && (
+        <a href={`tel:${siteConfig.phoneTel}`} class="btn btn-phone btn-sm">
+          📞 {siteConfig.phoneDisplay}
+        </a>
+      )}
     </nav>
   </div>
 </header>
