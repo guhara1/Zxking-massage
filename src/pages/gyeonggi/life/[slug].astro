@@ -10,6 +10,7 @@ import FAQ from '../../../components/FAQ.astro';
 import Checklist from '../../../components/Checklist.astro';
 import RelatedAreas from '../../../components/RelatedAreas.astro';
 import PhoneCTA from '../../../components/PhoneCTA.astro';
+import PriceTable from '../../../components/PriceTable.astro';
 import { getReadyLifeAreas, PROVINCE_LABEL } from '../../../lib/data';
 import type { LifeArea, UseCaseSlug } from '../../../lib/types';
 import {
@@ -123,6 +124,11 @@ const UC_LABEL: Record<UseCaseSlug, string> = {
       title={`${cityLabel}${area.name} 출장마사지 예약`}
       desc={`${cityLabel}${area.name} 생활권 방문 가능 지역과 예약 시간을 전화로 안내받으세요.`}
     />
+
+    {/* 가격표 */}
+    <section class="section-sm" style="border-top: 1px solid var(--color-border);">
+      <PriceTable title={`경기 ${cityLabel}${area.name} 출장마사지 가격표`} />
+    </section>
 
     {/* 관련 지역 보기 */}
     <RelatedAreas current={area} province="gyeonggi" />

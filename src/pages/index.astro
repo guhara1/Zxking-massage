@@ -9,6 +9,7 @@ import Checklist from '../components/Checklist.astro';
 import RegionCard from '../components/RegionCard.astro';
 import LifeAreaCard from '../components/LifeAreaCard.astro';
 import PhoneCTA from '../components/PhoneCTA.astro';
+import PriceTable from '../components/PriceTable.astro';
 import { siteConfig } from '../data/site';
 import { getReadyLifeAreas, getAllUseCases } from '../lib/data';
 import {
@@ -151,6 +152,13 @@ const schemas = [
           highlights={['송도국제도시', '구월·인천시청', '부평역·부평시장', '청라국제도시']}
         />
       </div>
+    </section>
+
+    {/* ============================================
+        가격표
+        ============================================ */}
+    <section class="section" style="border-top: 1px solid var(--color-border);">
+      <PriceTable />
     </section>
 
     {/* ============================================

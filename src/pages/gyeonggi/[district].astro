@@ -8,6 +8,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Checklist from '../../components/Checklist.astro';
 import PhoneCTA from '../../components/PhoneCTA.astro';
+import PriceTable from '../../components/PriceTable.astro';
 import LifeAreaCard from '../../components/LifeAreaCard.astro';
 import { getDistricts, findLifeAreaBySlug, PROVINCE_LABEL, stationLabel } from '../../lib/data';
 import type { DistrictData } from '../../lib/types';
@@ -104,6 +105,11 @@ const relatedAreas = (district.representativeLifeAreas ?? [])
       title={`경기 ${cityName} 출장마사지 예약`}
       desc={`${cityName} 방문 가능 지역과 예약 시간을 전화로 안내받으세요.`}
     />
+
+    {/* 가격표 */}
+    <section class="section-sm" style="border-top: 1px solid var(--color-border);">
+      <PriceTable title={`경기 ${cityName} 출장마사지 가격표`} />
+    </section>
 
     <section class="section-sm" style="border-top: 1px solid var(--color-border);">
       <Checklist />

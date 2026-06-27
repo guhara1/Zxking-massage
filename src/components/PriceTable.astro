@@ -1,0 +1,238 @@
+---
+/**
+ * 가격표 컴포넌트
+ * 모든 주요 페이지에 노출되는 마사지 코스별 가격 안내
+ */
+import priceData from '../data/common/price-table.json';
+import { siteConfig } from '../data/site';
+
+interface Props {
+  title?: string;
+}
+
+const { title = '마사지 가격표' } = Astro.props;
+
+const formatPrice = (price: number) => `${price.toLocaleString()}원`;
+---
+
+<section class="price-section" id="price">
+  <div class="price-header">
+    <h2 class="section-title" style="margin-bottom: 8px;">{title}</h2>
+    <p class="section-subtitle" style="margin-bottom: 0;">
+      합법적인 방문형 건강 관리 코스별 가격 안내. 시간별·코스별로 선택 가능합니다.
+    </p>
+  </div>
+
+  {/* 코스 카드 그리드 */}
+  <div class="price-grid">
+    {priceData.courses.map((course) => (
+      <div class="price-card">
+        <div class="price-card__head">
+          <h3 class="price-card__name">{course.name}</h3>
+          {course.includesMaterialFee && course.materialFeeNote && (
+            <span class="price-card__badge">{course.materialFeeNote}</span>
+          )}
+        </div>
+        <p class="price-card__desc">{course.description}</p>
+        <div class="price-card__options">
+          {course.options.map((opt) => (
+            <div class="price-opt">
+              <span class="price-opt__time">{opt.duration}</span>
+              <span class="price-opt__price">{formatPrice(opt.price)}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+
+  {/* 추가 비용 */}
+  {priceData.additionalFees && priceData.additionalFees.length > 0 && (
+    <div class="price-extra">
+      <div class="price-extra__title">추가 비용 안내</div>
+      <div class="price-extra__list">
+        {priceData.additionalFees.map((fee) => (
+          <div class="price-extra__item">
+            <div class="price-extra__head">
+              <span class="price-extra__name">{fee.name}</span>
+              <span class="price-extra__price">{formatPrice(fee.price)}</span>
+            </div>
+            {fee.note && <p class="price-extra__note">{fee.note}</p>}
+          </div>
+        ))}
+      </div>
+    </div>
+  )}
+
+  {/* 법적 안내 */}
+  <div class="price-legal">{priceData.legalNote}</div>
+
+  {/* 전화 예약 CTA */}
+  {siteConfig.phoneTel && (
+    <div style="text-align: center; margin-top: 28px;">
+      <a href={`tel:${siteConfig.phoneTel}`} class="btn btn-gold btn-lg">
+        📞 전화예약 {siteConfig.phoneDisplay}
+      </a>
+    </div>
+  )}
+</section>
+
+<style>
+  .price-section {
+    margin: 24px 0;
+  }
+  .price-header {
+    margin-bottom: 32px;
+  }
+  .price-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 28px;
+  }
+  .price-card {
+    background: var(--color-bg-card);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 32px 28px;
+    transition: all var(--transition);
+    position: relative;
+    overflow: hidden;
+  }
+  .price-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: var(--gradient-gold);
+  }
+  .price-card:hover {
+    border-color: var(--color-border-gold);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+  }
+  .price-card__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+  }
+  .price-card__name {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--color-text);
+    letter-spacing: -0.01em;
+  }
+  .price-card__badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    background: var(--color-gold-glow);
+    color: var(--color-gold-bright);
+    border: 1px solid var(--color-border-gold);
+    white-space: nowrap;
+  }
+  .price-card__desc {
+    font-size: 0.9rem;
+    color: var(--color-text-soft);
+    margin-bottom: 22px;
+    line-height: 1.6;
+  }
+  .price-card__options {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background: var(--color-border);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+  }
+  .price-opt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 18px;
+    background: var(--color-bg);
+    transition: background var(--transition);
+  }
+  .price-opt:hover {
+    background: var(--color-bg-elevated);
+  }
+  .price-opt__time {
+    font-size: 0.95rem;
+    color: var(--color-text-soft);
+    font-weight: 500;
+  }
+  .price-opt__price {
+    font-size: 1.15rem;
+    font-weight: 800;
+    background: var(--gradient-gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .price-extra {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 28px;
+    margin-bottom: 20px;
+  }
+  .price-extra__title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 16px;
+  }
+  .price-extra__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .price-extra__item {
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .price-extra__item:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  .price-extra__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+  }
+  .price-extra__name {
+    font-weight: 600;
+    color: var(--color-text);
+  }
+  .price-extra__price {
+    font-weight: 800;
+    color: var(--color-gold-bright);
+  }
+  .price-extra__note {
+    font-size: 0.85rem;
+    color: var(--color-text-soft);
+    line-height: 1.6;
+  }
+  .price-legal {
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    padding: 16px 20px;
+    font-size: 0.82rem;
+    color: var(--color-text-muted);
+    line-height: 1.7;
+  }
+
+  @media (max-width: 768px) {
+    .price-card { padding: 24px 20px; }
+    .price-card__name { font-size: 1.1rem; }
+    .price-opt { padding: 14px 14px; }
+  }
+</style>

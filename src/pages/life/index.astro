@@ -6,6 +6,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import LifeAreaCard from '../../components/LifeAreaCard.astro';
+import PriceTable from '../../components/PriceTable.astro';
 import { getReadyLifeAreas, PROVINCE_LABEL } from '../../lib/data';
 import { webPageSchema, breadcrumbSchema } from '../../lib/schema';
 
@@ -58,6 +59,11 @@ const schemas = [
       <div class="card-grid">
         {incheonAreas.map((area) => <LifeAreaCard area={area} />)}
       </div>
+    </section>
+
+    {/* 가격표 */}
+    <section class="section" style="border-top: 1px solid var(--color-border);">
+      <PriceTable />
     </section>
 
   </div>
