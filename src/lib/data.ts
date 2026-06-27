@@ -15,6 +15,7 @@ import incheonLifeAreas from '../data/incheon/life-areas.json';
 import seoulDistricts from '../data/seoul/districts.json';
 import gyeonggiDistricts from '../data/gyeonggi/districts.json';
 import incheonDistricts from '../data/incheon/districts.json';
+import gyeonggiCityDistricts from '../data/gyeonggi/city-districts.json';
 import useCasesData from '../data/common/use-cases.json';
 import checklistData from '../data/common/checklists.json';
 
@@ -118,6 +119,38 @@ export function getDongsByDistrict(province: Province, districtSlug: string): st
 }
 
 /**
+ * 행정구(gu) 계층 — 경기도 일반구 보유 7개 시 (수원/성남/고양/용인/안산/안양)
+ * 시 → 행정구(gu) → 행정동 3단계 구조 지원
+ */
+export interface CityDistrict {
+  slug: string;
+  name: string;
+  dongs: string[];
+}
+
+interface CityDistrictsData {
+  name: string;
+  districts: CityDistrict[];
+}
+
+/** 특정 경기 시가 일반구를 보유하고 있는지 */
+export function hasGuDistricts(citySlug: string): boolean {
+  const data = (gyeonggiCityDistricts as Record<string, CityDistrictsData>)[citySlug];
+  return !!(data && data.districts && data.districts.length > 0);
+}
+
+/** 특정 경기 시의 행정구(gu) 목록 반환 */
+export function getGuDistricts(citySlug: string): CityDistrict[] {
+  const data = (gyeonggiCityDistricts as Record<string, CityDistrictsData>)[citySlug];
+  return data?.districts ?? [];
+}
+
+/** 특정 행정구(gu) 단일 조회 */
+export function getGuDistrict(citySlug: string, guSlug: string): CityDistrict | undefined {
+  return getGuDistricts(citySlug).find((g) => g.slug === guSlug);
+}
+
+/**
  * 행정동 슬러그 처리
  * 동명(한글) → 로마자 슬러그 변환 (「국어의 로마자 표기법」 준수)
  * SEO를 위해 영문 슬러그 사용: 역삼동 → yeoksam-dong, 청담동 → cheongdam-dong
@@ -157,6 +190,41 @@ export function getDong(
   dongSlug: string
 ): { name: string; slug: string } | undefined {
   return getDongList(province, districtSlug).find((d) => d.slug === dongSlug);
+}
+
+/**
+ * 행정구(gu) 내 행정동 리스트 반환 (경기도 일반구 보유 시 전용)
+ * 슬러그 충돌 시 -2, -3 부여
+ */
+export function getDongListByGu(
+  citySlug: string,
+  guSlug: string
+): { name: string; slug: string }[] {
+  const gu = getGuDistrict(citySlug, guSlug);
+  if (!gu) return [];
+  const seen = new Map<string, number>();
+  const result: { name: string; slug: string }[] = [];
+  for (const name of gu.dongs) {
+    let slug = romanize(name);
+    if (seen.has(slug)) {
+      const count = (seen.get(slug) || 1) + 1;
+      seen.set(slug, count);
+      slug = `${slug}-${count}`;
+    } else {
+      seen.set(slug, 1);
+    }
+    result.push({ name, slug });
+  }
+  return result;
+}
+
+/** 행정구(gu) 내 특정 동 슬러그로 단일 동 조회 */
+export function getDongByGu(
+  citySlug: string,
+  guSlug: string,
+  dongSlug: string
+): { name: string; slug: string } | undefined {
+  return getDongListByGu(citySlug, guSlug).find((d) => d.slug === dongSlug);
 }
 
 /** 동 슬러그 → 동명 변환 (특정 구 내에서 역추적) */

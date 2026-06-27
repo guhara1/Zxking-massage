@@ -16,6 +16,8 @@ import {
   getAllUseCases,
   stationLabel,
   getDongList,
+  hasGuDistricts,
+  getGuDistricts,
   PROVINCE_LABEL,
 } from '../../lib/data';
 import type { DistrictData } from '../../lib/types';
@@ -36,6 +38,8 @@ interface Props {
 const { district } = Astro.props;
 const path = district.canonicalUrl;
 const cityName = district.city ?? district.name;
+const hasGu = hasGuDistricts(district.slug);
+const guList = hasGu ? getGuDistricts(district.slug) : [];
 
 const title = `경기 ${cityName} 출장마사지｜생활권·읍면동·역세권 방문 가능 지역 안내`;
 const description = `경기 ${cityName} 출장마사지 예약 전 ${cityName} 생활권별 방문 가능 지역과 읍면동, 지하철역, 이용 장소별 확인사항을 안내합니다. ${district.description}`;
@@ -133,19 +137,38 @@ const schemas = [
 
     <hr class="divider" />
 
-    <section class="section-sm" id="dong">
-      <h2 class="section-title">{cityName} <span class="accent">읍·면·동별 방문 가능 지역</span></h2>
-      <p class="section-subtitle">
-        실제 주소 기준으로 찾는 분들을 위한 안내입니다. 번호동은 대표동으로 통합해 안내합니다. 읍·면·동을 클릭하면 해당 지역의 방문 환경을 자세히 확인할 수 있습니다.
-      </p>
-      <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-        {getDongList('gyeonggi', district.slug).map((dong) => (
-          <a href={`/gyeonggi/${district.slug}/${dong.slug}/`} class="tag tag-link" style="padding: 11px 18px; font-size: 0.92rem;">
-            {dong.name}
-          </a>
-        ))}
-      </div>
-    </section>
+    {hasGu ? (
+      <section class="section-sm" id="dong">
+        <h2 class="section-title">{cityName} <span class="accent">행정구별 방문 가능 지역</span></h2>
+        <p class="section-subtitle">
+          {cityName}은(는) 행정구 체계로 운영됩니다. 행정구를 클릭하면 해당 구의 행정동과 방문 환경을 자세히 확인할 수 있습니다.
+        </p>
+        <div class="card-grid">
+          {guList.map((gu) => (
+            <a href={`/gyeonggi/${district.slug}/${gu.slug}/`} class="card">
+              <div class="tag tag-gold" style="margin-bottom: 10px; display: inline-block;">행정구</div>
+              <h3 class="card__title">{gu.name}</h3>
+              <p class="card__desc">{gu.name} 관할 행정동 {gu.dongs.length}개 지역 방문 예약 가능</p>
+              <span class="card__link">행정동 보기 →</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    ) : (
+      <section class="section-sm" id="dong">
+        <h2 class="section-title">{cityName} <span class="accent">읍·면·동별 방문 가능 지역</span></h2>
+        <p class="section-subtitle">
+          실제 주소 기준으로 찾는 분들을 위한 안내입니다. 번호동은 대표동으로 통합해 안내합니다. 읍·면·동을 클릭하면 해당 지역의 방문 환경을 자세히 확인할 수 있습니다.
+        </p>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+          {getDongList('gyeonggi', district.slug).map((dong) => (
+            <a href={`/gyeonggi/${district.slug}/${dong.slug}/`} class="tag tag-link" style="padding: 11px 18px; font-size: 0.92rem;">
+              {dong.name}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
 
     <hr class="divider" />
 
