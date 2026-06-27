@@ -1,0 +1,6134 @@
+[
+  {
+    "prov": "seoul",
+    "district": "gangnam-gu",
+    "dong": "개포동",
+    "slug": "gaepo-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangnam-gu",
+    "dong": "논현동",
+    "slug": "nonhyeon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangnam-gu",
+    "dong": "대치동",
+    "slug": "daechi-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangnam-gu",
+    "dong": "도곡동",
+    "slug": "dogog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangnam-gu",
+    "dong": "삼성동",
+    "slug": "samseong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangnam-gu",
+    "dong": "선릉동",
+    "slug": "seonreung-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangnam-gu",
+    "dong": "세곡동",
+    "slug": "segog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangnam-gu",
+    "dong": "수서동",
+    "slug": "suseo-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangnam-gu",
+    "dong": "압구정동",
+    "slug": "abgujeong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangnam-gu",
+    "dong": "역삼동",
+    "slug": "yeoksam-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangnam-gu",
+    "dong": "율현동",
+    "slug": "yurhyeon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangnam-gu",
+    "dong": "일원동",
+    "slug": "irweon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangnam-gu",
+    "dong": "일원본동",
+    "slug": "irweonbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangnam-gu",
+    "dong": "자곡동",
+    "slug": "jagog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangnam-gu",
+    "dong": "청담동",
+    "slug": "cheongdam-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seocho-gu",
+    "dong": "내곡동",
+    "slug": "naegog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seocho-gu",
+    "dong": "반포동",
+    "slug": "banpo-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seocho-gu",
+    "dong": "반포본동",
+    "slug": "banpobon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seocho-gu",
+    "dong": "방배동",
+    "slug": "bangbae-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seocho-gu",
+    "dong": "방배본동",
+    "slug": "bangbaebon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seocho-gu",
+    "dong": "서초동",
+    "slug": "seocho-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seocho-gu",
+    "dong": "신원동",
+    "slug": "sinweon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seocho-gu",
+    "dong": "양재동",
+    "slug": "yangjae-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seocho-gu",
+    "dong": "우면동",
+    "slug": "umyeon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seocho-gu",
+    "dong": "원지동",
+    "slug": "weonji-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seocho-gu",
+    "dong": "잠원동",
+    "slug": "jamweon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "songpa-gu",
+    "dong": "가락동",
+    "slug": "garag-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "songpa-gu",
+    "dong": "거여동",
+    "slug": "geoyeo-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "songpa-gu",
+    "dong": "마장동",
+    "slug": "majang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "songpa-gu",
+    "dong": "마천동",
+    "slug": "macheon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "songpa-gu",
+    "dong": "문정동",
+    "slug": "munjeong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "songpa-gu",
+    "dong": "방이동",
+    "slug": "bangi-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "songpa-gu",
+    "dong": "삼전동",
+    "slug": "samjeon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "songpa-gu",
+    "dong": "석촌동",
+    "slug": "seokchon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "songpa-gu",
+    "dong": "송파동",
+    "slug": "songpa-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "songpa-gu",
+    "dong": "신천동",
+    "slug": "sincheon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "songpa-gu",
+    "dong": "오금동",
+    "slug": "ogeum-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "songpa-gu",
+    "dong": "위례동",
+    "slug": "wirye-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "songpa-gu",
+    "dong": "잠실동",
+    "slug": "jamsir-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "songpa-gu",
+    "dong": "장지동",
+    "slug": "jangji-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "songpa-gu",
+    "dong": "천호동",
+    "slug": "cheonho-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "songpa-gu",
+    "dong": "풍납동",
+    "slug": "pungnab-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "공덕동",
+    "slug": "gongdeog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "노고산동",
+    "slug": "nogosan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "대흥동",
+    "slug": "daeheung-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "도화동",
+    "slug": "dohwa-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "동교동",
+    "slug": "donggyo-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "마포동",
+    "slug": "mapo-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "망원동",
+    "slug": "mangweon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "상수동",
+    "slug": "sangsu-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "상암동",
+    "slug": "sangam-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "서강동",
+    "slug": "seogang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "서교동",
+    "slug": "seogyo-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "성산동",
+    "slug": "seongsan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "신수동",
+    "slug": "sinsu-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "신촌동",
+    "slug": "sinchon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "아현동",
+    "slug": "ahyeon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "연남동",
+    "slug": "yeonnam-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "염리동",
+    "slug": "yeomri-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "용강동",
+    "slug": "yonggang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "중동",
+    "slug": "jung-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "창전동",
+    "slug": "changjeon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "합정동",
+    "slug": "hapjeong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "호암동",
+    "slug": "hoam-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "mapo-gu",
+    "dong": "흑석동",
+    "slug": "heukseog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yeongdeungpo-gu",
+    "dong": "당산동",
+    "slug": "dangsan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yeongdeungpo-gu",
+    "dong": "당산본동",
+    "slug": "dangsanbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yeongdeungpo-gu",
+    "dong": "대림동",
+    "slug": "daerim-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yeongdeungpo-gu",
+    "dong": "도림동",
+    "slug": "dorim-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yeongdeungpo-gu",
+    "dong": "문경동",
+    "slug": "mungyeong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yeongdeungpo-gu",
+    "dong": "문래동",
+    "slug": "munrae-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yeongdeungpo-gu",
+    "dong": "신길동",
+    "slug": "singir-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yeongdeungpo-gu",
+    "dong": "신정동",
+    "slug": "sinjeong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yeongdeungpo-gu",
+    "dong": "양평동",
+    "slug": "yangpyeong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yeongdeungpo-gu",
+    "dong": "양평본동",
+    "slug": "yangpyeongbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yeongdeungpo-gu",
+    "dong": "여의도동",
+    "slug": "yeouido-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yeongdeungpo-gu",
+    "dong": "영등포동",
+    "slug": "yeongdeungpo-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yeongdeungpo-gu",
+    "dong": "영등포본동",
+    "slug": "yeongdeungpobon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongdong-gu",
+    "dong": "금호동",
+    "slug": "geumho-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongdong-gu",
+    "dong": "도선동",
+    "slug": "doseon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongdong-gu",
+    "dong": "마장동",
+    "slug": "majang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongdong-gu",
+    "dong": "모진동",
+    "slug": "mojin-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongdong-gu",
+    "dong": "사가정동",
+    "slug": "sagajeong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongdong-gu",
+    "dong": "성수동",
+    "slug": "seongsu-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongdong-gu",
+    "dong": "송정동",
+    "slug": "songjeong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongdong-gu",
+    "dong": "옥수동",
+    "slug": "oksu-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongdong-gu",
+    "dong": "왕십리동",
+    "slug": "wangsibri-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongdong-gu",
+    "dong": "용답동",
+    "slug": "yongdab-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongdong-gu",
+    "dong": "응봉동",
+    "slug": "eungbong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongdong-gu",
+    "dong": "행당동",
+    "slug": "haengdang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yongsan-gu",
+    "dong": "남영동",
+    "slug": "namyeong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yongsan-gu",
+    "dong": "동빙고동",
+    "slug": "dongbinggo-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yongsan-gu",
+    "dong": "문배동",
+    "slug": "munbae-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yongsan-gu",
+    "dong": "보광동",
+    "slug": "bogwang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yongsan-gu",
+    "dong": "서빙고동",
+    "slug": "seobinggo-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yongsan-gu",
+    "dong": "용산동",
+    "slug": "yongsan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yongsan-gu",
+    "dong": "원서동",
+    "slug": "weonseo-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yongsan-gu",
+    "dong": "원효로동",
+    "slug": "weonhyoro-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yongsan-gu",
+    "dong": "이태원동",
+    "slug": "itaeweon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yongsan-gu",
+    "dong": "주성동",
+    "slug": "juseong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yongsan-gu",
+    "dong": "청파동",
+    "slug": "cheongpa-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yongsan-gu",
+    "dong": "한남동",
+    "slug": "hannam-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yongsan-gu",
+    "dong": "효창동",
+    "slug": "hyochang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwangjin-gu",
+    "dong": "광장동",
+    "slug": "gwangjang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwangjin-gu",
+    "dong": "구의동",
+    "slug": "guui-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwangjin-gu",
+    "dong": "군자동",
+    "slug": "gunja-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwangjin-gu",
+    "dong": "능동",
+    "slug": "neung-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwangjin-gu",
+    "dong": "모진동",
+    "slug": "mojin-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwangjin-gu",
+    "dong": "자양동",
+    "slug": "jayang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwangjin-gu",
+    "dong": "장한평동",
+    "slug": "janghanpyeong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwangjin-gu",
+    "dong": "중곡동",
+    "slug": "junggog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwangjin-gu",
+    "dong": "화양동",
+    "slug": "hwayang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangseo-gu",
+    "dong": "가양동",
+    "slug": "gayang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangseo-gu",
+    "dong": "개화동",
+    "slug": "gaehwa-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangseo-gu",
+    "dong": "과해동",
+    "slug": "gwahae-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangseo-gu",
+    "dong": "내발산동",
+    "slug": "naebarsan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangseo-gu",
+    "dong": "내화곡동",
+    "slug": "naehwagog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangseo-gu",
+    "dong": "등촌동",
+    "slug": "deungchon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangseo-gu",
+    "dong": "마곡동",
+    "slug": "magog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangseo-gu",
+    "dong": "발산동",
+    "slug": "barsan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangseo-gu",
+    "dong": "방화동",
+    "slug": "banghwa-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangseo-gu",
+    "dong": "염창동",
+    "slug": "yeomchang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangseo-gu",
+    "dong": "오곡동",
+    "slug": "ogog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangseo-gu",
+    "dong": "오쇠동",
+    "slug": "osoe-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangseo-gu",
+    "dong": "외발산동",
+    "slug": "oebarsan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangseo-gu",
+    "dong": "우장산동",
+    "slug": "ujangsan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangseo-gu",
+    "dong": "화곡동",
+    "slug": "hwagog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangseo-gu",
+    "dong": "화곡본동",
+    "slug": "hwagogbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "guro-gu",
+    "dong": "가리봉동",
+    "slug": "garibong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "guro-gu",
+    "dong": "가산동",
+    "slug": "gasan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "guro-gu",
+    "dong": "개봉동",
+    "slug": "gaebong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "guro-gu",
+    "dong": "고척동",
+    "slug": "gocheog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "guro-gu",
+    "dong": "구로동",
+    "slug": "guro-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "guro-gu",
+    "dong": "궁동",
+    "slug": "gung-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "guro-gu",
+    "dong": "대림동",
+    "slug": "daerim-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "guro-gu",
+    "dong": "수동",
+    "slug": "su-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "guro-gu",
+    "dong": "신도림동",
+    "slug": "sindorim-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "guro-gu",
+    "dong": "온수동",
+    "slug": "onsu-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "guro-gu",
+    "dong": "천왕동",
+    "slug": "cheonwang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "guro-gu",
+    "dong": "항동",
+    "slug": "hang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "geumcheon-gu",
+    "dong": "가산동",
+    "slug": "gasan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "geumcheon-gu",
+    "dong": "독산동",
+    "slug": "doksan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "geumcheon-gu",
+    "dong": "시흥동",
+    "slug": "siheung-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "geumcheon-gu",
+    "dong": "시흥본동",
+    "slug": "siheungbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwanak-gu",
+    "dong": "낙성대동",
+    "slug": "nakseongdae-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwanak-gu",
+    "dong": "난계동",
+    "slug": "nangye-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwanak-gu",
+    "dong": "난곡동",
+    "slug": "nangog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwanak-gu",
+    "dong": "난향동",
+    "slug": "nanhyang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwanak-gu",
+    "dong": "남현동",
+    "slug": "namhyeon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwanak-gu",
+    "dong": "미성동",
+    "slug": "miseong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwanak-gu",
+    "dong": "봉천동",
+    "slug": "bongcheon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwanak-gu",
+    "dong": "서원동",
+    "slug": "seoweon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwanak-gu",
+    "dong": "성현동",
+    "slug": "seonghyeon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwanak-gu",
+    "dong": "신림동",
+    "slug": "sinrim-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwanak-gu",
+    "dong": "신사동",
+    "slug": "sinsa-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwanak-gu",
+    "dong": "신원동",
+    "slug": "sinweon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwanak-gu",
+    "dong": "은천동",
+    "slug": "euncheon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwanak-gu",
+    "dong": "인헌동",
+    "slug": "inheon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwanak-gu",
+    "dong": "조원동",
+    "slug": "joweon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwanak-gu",
+    "dong": "청룡동",
+    "slug": "cheongryong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwanak-gu",
+    "dong": "청림동",
+    "slug": "cheongrim-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gwanak-gu",
+    "dong": "행운동",
+    "slug": "haengun-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongjak-gu",
+    "dong": "노량진동",
+    "slug": "noryangjin-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongjak-gu",
+    "dong": "대방동",
+    "slug": "daebang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongjak-gu",
+    "dong": "동작동",
+    "slug": "dongjag-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongjak-gu",
+    "dong": "본동",
+    "slug": "bon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongjak-gu",
+    "dong": "사당동",
+    "slug": "sadang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongjak-gu",
+    "dong": "사육탑동",
+    "slug": "sayugtab-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongjak-gu",
+    "dong": "상도동",
+    "slug": "sangdo-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongjak-gu",
+    "dong": "상도본동",
+    "slug": "sangdobon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongjak-gu",
+    "dong": "신대방동",
+    "slug": "sindaebang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongjak-gu",
+    "dong": "신대방본동",
+    "slug": "sindaebangbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongjak-gu",
+    "dong": "양녕로동",
+    "slug": "yangnyeongro-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongjak-gu",
+    "dong": "흑석동",
+    "slug": "heukseog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yangcheon-gu",
+    "dong": "내발산동",
+    "slug": "naebarsan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yangcheon-gu",
+    "dong": "등촌동",
+    "slug": "deungchon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yangcheon-gu",
+    "dong": "목동",
+    "slug": "mog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yangcheon-gu",
+    "dong": "목본동",
+    "slug": "mogbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yangcheon-gu",
+    "dong": "신월동",
+    "slug": "sinweor-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yangcheon-gu",
+    "dong": "신정동",
+    "slug": "sinjeong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yangcheon-gu",
+    "dong": "신정본동",
+    "slug": "sinjeongbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yangcheon-gu",
+    "dong": "화곡동",
+    "slug": "hwagog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "yangcheon-gu",
+    "dong": "화곡본동",
+    "slug": "hwagogbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "eunpyeong-gu",
+    "dong": "갈현동",
+    "slug": "garhyeon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "eunpyeong-gu",
+    "dong": "구산동",
+    "slug": "gusan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "eunpyeong-gu",
+    "dong": "녹번동",
+    "slug": "nogbeon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "eunpyeong-gu",
+    "dong": "대조동",
+    "slug": "daejo-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "eunpyeong-gu",
+    "dong": "불광동",
+    "slug": "burgwang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "eunpyeong-gu",
+    "dong": "불광본동",
+    "slug": "burgwangbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "eunpyeong-gu",
+    "dong": "신사동",
+    "slug": "sinsa-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "eunpyeong-gu",
+    "dong": "역촌동",
+    "slug": "yeokchon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "eunpyeong-gu",
+    "dong": "연신내동",
+    "slug": "yeonsinnae-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "eunpyeong-gu",
+    "dong": "응암동",
+    "slug": "eungam-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "eunpyeong-gu",
+    "dong": "증산동",
+    "slug": "jeungsan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "eunpyeong-gu",
+    "dong": "진관동",
+    "slug": "jingwan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "nowon-gu",
+    "dong": "공릉동",
+    "slug": "gongreung-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "nowon-gu",
+    "dong": "공릉본동",
+    "slug": "gongreungbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "nowon-gu",
+    "dong": "노원본동",
+    "slug": "noweonbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "nowon-gu",
+    "dong": "상계동",
+    "slug": "sanggye-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "nowon-gu",
+    "dong": "상계본동",
+    "slug": "sanggyebon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "nowon-gu",
+    "dong": "월계동",
+    "slug": "weorgye-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "nowon-gu",
+    "dong": "월계본동",
+    "slug": "weorgyebon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "nowon-gu",
+    "dong": "중계동",
+    "slug": "junggye-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "nowon-gu",
+    "dong": "중계본동",
+    "slug": "junggyebon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "nowon-gu",
+    "dong": "창동",
+    "slug": "chang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "nowon-gu",
+    "dong": "하계동",
+    "slug": "hagye-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "nowon-gu",
+    "dong": "하계본동",
+    "slug": "hagyebon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jungnang-gu",
+    "dong": "망우동",
+    "slug": "mangu-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jungnang-gu",
+    "dong": "망우본동",
+    "slug": "mangubon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jungnang-gu",
+    "dong": "면목동",
+    "slug": "myeonmog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jungnang-gu",
+    "dong": "면목본동",
+    "slug": "myeonmogbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jungnang-gu",
+    "dong": "묵동",
+    "slug": "mug-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jungnang-gu",
+    "dong": "묵동본동",
+    "slug": "mugdongbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jungnang-gu",
+    "dong": "상봉동",
+    "slug": "sangbong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jungnang-gu",
+    "dong": "신내동",
+    "slug": "sinnae-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jungnang-gu",
+    "dong": "중화동",
+    "slug": "junghwa-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jungnang-gu",
+    "dong": "중화본동",
+    "slug": "junghwabon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "경운동",
+    "slug": "gyeongun-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "교남동",
+    "slug": "gyonam-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "낙원동",
+    "slug": "nagweon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "무악동",
+    "slug": "muag-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "부암동",
+    "slug": "buam-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "사직동",
+    "slug": "sajig-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "숭인동",
+    "slug": "sungin-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "신문로동",
+    "slug": "sinmunro-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "이화동",
+    "slug": "ihwa-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "인사동",
+    "slug": "insa-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "종로동",
+    "slug": "jongro-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "종로본동",
+    "slug": "jongrobon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "창신동",
+    "slug": "changsin-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "청운효자동",
+    "slug": "cheongunhyoja-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "청진동",
+    "slug": "cheongjin-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "태평로동",
+    "slug": "taepyeongro-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "평창동",
+    "slug": "pyeongchang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "혜화동",
+    "slug": "hyehwa-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jongno-gu",
+    "dong": "효자동",
+    "slug": "hyoja-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jung-gu",
+    "dong": "광희동",
+    "slug": "gwanghui-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jung-gu",
+    "dong": "남대문로동",
+    "slug": "namdaemunro-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jung-gu",
+    "dong": "남산동",
+    "slug": "namsan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jung-gu",
+    "dong": "남창동",
+    "slug": "namchang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jung-gu",
+    "dong": "다산동",
+    "slug": "dasan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jung-gu",
+    "dong": "명동",
+    "slug": "myeong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jung-gu",
+    "dong": "무교동",
+    "slug": "mugyo-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jung-gu",
+    "dong": "방산동",
+    "slug": "bangsan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jung-gu",
+    "dong": "봉래동",
+    "slug": "bongrae-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jung-gu",
+    "dong": "신당동",
+    "slug": "sindang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jung-gu",
+    "dong": "을지로동",
+    "slug": "eurjiro-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jung-gu",
+    "dong": "응봉동",
+    "slug": "eungbong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jung-gu",
+    "dong": "장충동",
+    "slug": "jangchung-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jung-gu",
+    "dong": "중림동",
+    "slug": "jungrim-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jung-gu",
+    "dong": "중앙동",
+    "slug": "jungang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jung-gu",
+    "dong": "충무로동",
+    "slug": "chungmuro-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jung-gu",
+    "dong": "황학동",
+    "slug": "hwanghag-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "jung-gu",
+    "dong": "회현동",
+    "slug": "hoehyeon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangdong-gu",
+    "dong": "고덕동",
+    "slug": "godeog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangdong-gu",
+    "dong": "길동",
+    "slug": "gir-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangdong-gu",
+    "dong": "둔촌동",
+    "slug": "dunchon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangdong-gu",
+    "dong": "명일동",
+    "slug": "myeongir-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangdong-gu",
+    "dong": "상일동",
+    "slug": "sangir-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangdong-gu",
+    "dong": "성내동",
+    "slug": "seongnae-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangdong-gu",
+    "dong": "암사동",
+    "slug": "amsa-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangdong-gu",
+    "dong": "암사본동",
+    "slug": "amsabon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangdong-gu",
+    "dong": "천호동",
+    "slug": "cheonho-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangbuk-gu",
+    "dong": "길음동",
+    "slug": "gireum-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangbuk-gu",
+    "dong": "미아동",
+    "slug": "mia-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangbuk-gu",
+    "dong": "번동",
+    "slug": "beon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangbuk-gu",
+    "dong": "보문동",
+    "slug": "bomun-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangbuk-gu",
+    "dong": "삼각산동",
+    "slug": "samgaksan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangbuk-gu",
+    "dong": "삼양동",
+    "slug": "samyang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangbuk-gu",
+    "dong": "송천동",
+    "slug": "songcheon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangbuk-gu",
+    "dong": "수유동",
+    "slug": "suyu-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangbuk-gu",
+    "dong": "수유본동",
+    "slug": "suyubon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangbuk-gu",
+    "dong": "우이동",
+    "slug": "ui-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangbuk-gu",
+    "dong": "인수동",
+    "slug": "insu-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "gangbuk-gu",
+    "dong": "창동",
+    "slug": "chang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dobong-gu",
+    "dong": "도봉동",
+    "slug": "dobong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dobong-gu",
+    "dong": "도봉본동",
+    "slug": "dobongbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dobong-gu",
+    "dong": "방학동",
+    "slug": "banghag-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dobong-gu",
+    "dong": "방학본동",
+    "slug": "banghagbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dobong-gu",
+    "dong": "쌍문동",
+    "slug": "ssangmun-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dobong-gu",
+    "dong": "쌍문본동",
+    "slug": "ssangmunbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dobong-gu",
+    "dong": "창동",
+    "slug": "chang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongdaemun-gu",
+    "dong": "답십리동",
+    "slug": "dapsibri-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongdaemun-gu",
+    "dong": "답십리본동",
+    "slug": "dapsibribon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongdaemun-gu",
+    "dong": "묵동",
+    "slug": "mug-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongdaemun-gu",
+    "dong": "봉랑동",
+    "slug": "bongrang-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongdaemun-gu",
+    "dong": "신설동",
+    "slug": "sinseor-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongdaemun-gu",
+    "dong": "용두동",
+    "slug": "yongdu-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongdaemun-gu",
+    "dong": "용신동",
+    "slug": "yongsin-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongdaemun-gu",
+    "dong": "이문동",
+    "slug": "imun-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongdaemun-gu",
+    "dong": "장안동",
+    "slug": "jangan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongdaemun-gu",
+    "dong": "전농동",
+    "slug": "jeonnong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongdaemun-gu",
+    "dong": "제기동",
+    "slug": "jegi-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongdaemun-gu",
+    "dong": "청량리동",
+    "slug": "cheongryangri-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongdaemun-gu",
+    "dong": "회기동",
+    "slug": "hoegi-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "dongdaemun-gu",
+    "dong": "휘경동",
+    "slug": "hwigyeong-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seodaemun-gu",
+    "dong": "남가좌동",
+    "slug": "namgajwa-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seodaemun-gu",
+    "dong": "대신동",
+    "slug": "daesin-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seodaemun-gu",
+    "dong": "대현동",
+    "slug": "daehyeon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seodaemun-gu",
+    "dong": "봉원동",
+    "slug": "bongweon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seodaemun-gu",
+    "dong": "북가좌동",
+    "slug": "buggajwa-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seodaemun-gu",
+    "dong": "북아현동",
+    "slug": "bugahyeon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seodaemun-gu",
+    "dong": "신촌동",
+    "slug": "sinchon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seodaemun-gu",
+    "dong": "연서동",
+    "slug": "yeonseo-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seodaemun-gu",
+    "dong": "연희동",
+    "slug": "yeonhui-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seodaemun-gu",
+    "dong": "천연동",
+    "slug": "cheonyeon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seodaemun-gu",
+    "dong": "충현동",
+    "slug": "chunghyeon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seodaemun-gu",
+    "dong": "합동",
+    "slug": "hab-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seodaemun-gu",
+    "dong": "홍은동",
+    "slug": "hongeun-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seodaemun-gu",
+    "dong": "홍제동",
+    "slug": "hongje-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongbuk-gu",
+    "dong": "길음동",
+    "slug": "gireum-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongbuk-gu",
+    "dong": "길음본동",
+    "slug": "gireumbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongbuk-gu",
+    "dong": "돈암동",
+    "slug": "donam-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongbuk-gu",
+    "dong": "동선동",
+    "slug": "dongseon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongbuk-gu",
+    "dong": "보문동",
+    "slug": "bomun-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongbuk-gu",
+    "dong": "삼선동",
+    "slug": "samseon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongbuk-gu",
+    "dong": "상월곡동",
+    "slug": "sangweorgog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongbuk-gu",
+    "dong": "석관동",
+    "slug": "seoggwan-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongbuk-gu",
+    "dong": "성북동",
+    "slug": "seongbug-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongbuk-gu",
+    "dong": "안암동",
+    "slug": "anam-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongbuk-gu",
+    "dong": "월곡동",
+    "slug": "weorgog-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongbuk-gu",
+    "dong": "월곡본동",
+    "slug": "weorgogbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongbuk-gu",
+    "dong": "장위동",
+    "slug": "jangwi-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongbuk-gu",
+    "dong": "장위본동",
+    "slug": "jangwibon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongbuk-gu",
+    "dong": "정릉동",
+    "slug": "jeongreung-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongbuk-gu",
+    "dong": "정릉본동",
+    "slug": "jeongreungbon-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongbuk-gu",
+    "dong": "종암동",
+    "slug": "jongam-dong"
+  },
+  {
+    "prov": "seoul",
+    "district": "seongbuk-gu",
+    "dong": "하월곡동",
+    "slug": "haweorgog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "고색동",
+    "slug": "gosaeg-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "곡반정동",
+    "slug": "gogbanjeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "구운동",
+    "slug": "guun-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "권선구",
+    "slug": "gweonseongu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "권선동",
+    "slug": "gweonseon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "금곡동",
+    "slug": "geumgog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "당수동",
+    "slug": "dangsu-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "대황교동",
+    "slug": "daehwanggyo-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "망포동",
+    "slug": "mangpo-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "멱동",
+    "slug": "myeog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "보라동",
+    "slug": "bora-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "부론동",
+    "slug": "buron-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "서둔동",
+    "slug": "seodun-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "세류동",
+    "slug": "seryu-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "송천동",
+    "slug": "songcheon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "신동",
+    "slug": "sin-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "양지동",
+    "slug": "yangji-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "어천동",
+    "slug": "eocheon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "영통구",
+    "slug": "yeongtonggu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "오산동",
+    "slug": "osan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "외통동",
+    "slug": "oetong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "용인동",
+    "slug": "yongin-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "우만동",
+    "slug": "uman-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "원천동",
+    "slug": "weoncheon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "이의동",
+    "slug": "iui-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "인계동",
+    "slug": "ingye-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "장안구",
+    "slug": "jangangu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "장지동",
+    "slug": "jangji-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "정자동",
+    "slug": "jeongja-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "조원동",
+    "slug": "joweon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "천천동",
+    "slug": "cheoncheon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "청계동",
+    "slug": "cheonggye-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "탑동",
+    "slug": "tab-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "팔달구",
+    "slug": "pardargu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "평동",
+    "slug": "pyeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "행궁동",
+    "slug": "haenggung-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "화서동",
+    "slug": "hwaseo-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "효원동",
+    "slug": "hyoweon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "suwon",
+    "dong": "효행동",
+    "slug": "hyohaeng-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "구미동",
+    "slug": "gumi-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "궁내동",
+    "slug": "gungnae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "금곡동",
+    "slug": "geumgog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "단대동",
+    "slug": "dandae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "백현동",
+    "slug": "baeghyeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "복정동",
+    "slug": "bokjeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "분당구",
+    "slug": "bundanggu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "분당동",
+    "slug": "bundang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "사송동",
+    "slug": "sasong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "산성동",
+    "slug": "sanseong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "상대원동",
+    "slug": "sangdaeweon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "서현동",
+    "slug": "seohyeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "수내동",
+    "slug": "sunae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "수정구",
+    "slug": "sujeonggu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "수진동",
+    "slug": "sujin-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "신흥동",
+    "slug": "sinheung-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "야탑동",
+    "slug": "yatab-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "양지동",
+    "slug": "yangji-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "위례동",
+    "slug": "wirye-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "은행동",
+    "slug": "eunhaeng-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "이매동",
+    "slug": "imae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "정자동",
+    "slug": "jeongja-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "중원구",
+    "slug": "jungweongu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "창곡동",
+    "slug": "changgog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "태평동",
+    "slug": "taepyeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "판교동",
+    "slug": "pangyo-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "seongnam",
+    "dong": "하대원동",
+    "slug": "hadaeweon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "갈산동",
+    "slug": "garsan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "고기동",
+    "slug": "gogi-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "고림동",
+    "slug": "gorim-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "공세동",
+    "slug": "gongse-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "구갈동",
+    "slug": "gugar-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "기흥구",
+    "slug": "giheunggu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "김량장동",
+    "slug": "gimryangjang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "남동",
+    "slug": "nam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "동부동",
+    "slug": "dongbu-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "동천동",
+    "slug": "dongcheon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "마평동",
+    "slug": "mapyeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "보라동",
+    "slug": "bora-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "보정동",
+    "slug": "bojeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "산남동",
+    "slug": "sannam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "삼가동",
+    "slug": "samga-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "상갈동",
+    "slug": "sanggar-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "상하동",
+    "slug": "sangha-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "상현동",
+    "slug": "sanghyeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "성복동",
+    "slug": "seongbog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "수지구",
+    "slug": "sujigu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "신봉동",
+    "slug": "sinbong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "언남동",
+    "slug": "eonnam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "역북동",
+    "slug": "yeogbug-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "영덕동",
+    "slug": "yeongdeog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "유교동",
+    "slug": "yugyo-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "유방동",
+    "slug": "yubang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "유천동",
+    "slug": "yucheon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "죽전동",
+    "slug": "jukjeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "중동",
+    "slug": "jung-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "지곡동",
+    "slug": "jigog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "처인구",
+    "slug": "cheoingu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "풍덕천동",
+    "slug": "pungdeokcheon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "하갈동",
+    "slug": "hagar-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yongin",
+    "dong": "호동",
+    "slug": "ho-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "가좌동",
+    "slug": "gajwa-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "내유동",
+    "slug": "naeyu-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "능곡동",
+    "slug": "neunggog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "대화동",
+    "slug": "daehwa-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "덕양구",
+    "slug": "deogyanggu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "마두동",
+    "slug": "madu-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "백석동",
+    "slug": "baekseog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "삼송동",
+    "slug": "samsong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "성사동",
+    "slug": "seongsa-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "식사동",
+    "slug": "siksa-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "신원동",
+    "slug": "sinweon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "오산동",
+    "slug": "osan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "원당동",
+    "slug": "weondang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "원흥동",
+    "slug": "weonheung-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "일산동",
+    "slug": "irsan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "일산동구",
+    "slug": "irsandonggu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "일산서구",
+    "slug": "irsanseogu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "장항동",
+    "slug": "janghang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "정발산동",
+    "slug": "jeongbarsan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "주교동",
+    "slug": "jugyo-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "주엽동",
+    "slug": "juyeob-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "중산동",
+    "slug": "jungsan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "탄현동",
+    "slug": "tanhyeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "토당동",
+    "slug": "todang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "풍동동",
+    "slug": "pungdong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "행신동",
+    "slug": "haengsin-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "향동동",
+    "slug": "hyangdong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "현천동",
+    "slug": "hyeoncheon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "화정동",
+    "slug": "hwajeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "goyang",
+    "dong": "흥도동",
+    "slug": "heungdo-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "기배동",
+    "slug": "gibae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "남양읍",
+    "slug": "namyang-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "능동",
+    "slug": "neung-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "마도면",
+    "slug": "mado-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "매송면",
+    "slug": "maesong-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "목동",
+    "slug": "mog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "반송동",
+    "slug": "bansong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "방교동",
+    "slug": "banggyo-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "병점동",
+    "slug": "byeongjeom-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "비봉면",
+    "slug": "bibong-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "삼괴동",
+    "slug": "samgoe-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "서신면",
+    "slug": "seosin-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "석우동",
+    "slug": "seogu-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "송동",
+    "slug": "song-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "송산동",
+    "slug": "songsan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "송산면",
+    "slug": "songsan-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "신동",
+    "slug": "sin-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "안녕동",
+    "slug": "annyeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "양감동",
+    "slug": "yanggam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "양감면",
+    "slug": "yanggam-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "영천동",
+    "slug": "yeongcheon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "우정읍",
+    "slug": "ujeong-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "장안면",
+    "slug": "jangan-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "정남면",
+    "slug": "jeongnam-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "제암동",
+    "slug": "jeam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "중동",
+    "slug": "jung-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "진안동",
+    "slug": "jinan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "청계동",
+    "slug": "cheonggye-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "향남동",
+    "slug": "hyangnam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "화산동",
+    "slug": "hwasan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hwaseong",
+    "dong": "황계동",
+    "slug": "hwanggye-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "고강동",
+    "slug": "gogang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "내동",
+    "slug": "nae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "도당동",
+    "slug": "dodang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "범박동",
+    "slug": "beombag-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "부천동",
+    "slug": "bucheon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "상동",
+    "slug": "sang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "성곡동",
+    "slug": "seonggog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "소사구",
+    "slug": "sosagu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "소사동",
+    "slug": "sosa-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "소사본동",
+    "slug": "sosabon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "송내동",
+    "slug": "songnae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "신중동",
+    "slug": "sinjung-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "심곡동",
+    "slug": "simgog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "약대동",
+    "slug": "yagdae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "여월동",
+    "slug": "yeoweor-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "역곡동",
+    "slug": "yeoggog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "오정구",
+    "slug": "ojeonggu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "오정동",
+    "slug": "ojeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "옥길동",
+    "slug": "oggir-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "원미구",
+    "slug": "weonmigu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "원미동",
+    "slug": "weonmi-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "원종동",
+    "slug": "weonjong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "작동",
+    "slug": "jag-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "중동",
+    "slug": "jung-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "bucheon",
+    "dong": "춘의동",
+    "slug": "chunui-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "고잔동",
+    "slug": "gojan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "단원구",
+    "slug": "danweongu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "대부동동",
+    "slug": "daebudong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "대부북동",
+    "slug": "daebubug-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "목내동",
+    "slug": "mognae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "문곡동",
+    "slug": "mungog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "부곡동",
+    "slug": "bugog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "사동",
+    "slug": "sa-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "상록구",
+    "slug": "sangroggu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "선감동",
+    "slug": "seongam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "선부동",
+    "slug": "seonbu-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "성곡동",
+    "slug": "seonggog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "성포동",
+    "slug": "seongpo-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "신길동",
+    "slug": "singir-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "안곡동",
+    "slug": "angog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "와동",
+    "slug": "wa-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "원곡동",
+    "slug": "weongog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "이동",
+    "slug": "i-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "일동",
+    "slug": "ir-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "중앙동",
+    "slug": "jungang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "초지동",
+    "slug": "choji-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "탄도동",
+    "slug": "tando-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "풍도동",
+    "slug": "pungdo-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "ansan",
+    "dong": "해양동",
+    "slug": "haeyang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "고덕면",
+    "slug": "godeog-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "도일동",
+    "slug": "doir-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "동삭동",
+    "slug": "dongsag-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "비전동",
+    "slug": "bijeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "서정동",
+    "slug": "seojeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "세교동",
+    "slug": "segyo-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "소사본동",
+    "slug": "sosabon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "신장동",
+    "slug": "sinjang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "안중읍",
+    "slug": "anjung-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "오성면",
+    "slug": "oseong-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "유천동",
+    "slug": "yucheon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "지산동",
+    "slug": "jisan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "진위면",
+    "slug": "jinwi-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "청북읍",
+    "slug": "cheongbug-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "통복동",
+    "slug": "tongbog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "팽성읍",
+    "slug": "paengseong-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "평택동",
+    "slug": "pyeongtaeg-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "포승읍",
+    "slug": "poseung-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "합정동",
+    "slug": "hapjeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pyeongtaek",
+    "dong": "현덕면",
+    "slug": "hyeondeog-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "갈산동",
+    "slug": "garsan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "관양동",
+    "slug": "gwanyang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "귀인동",
+    "slug": "gwiin-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "달안동",
+    "slug": "daran-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "동안구",
+    "slug": "dongangu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "두안동",
+    "slug": "duan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "만안구",
+    "slug": "manangu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "박달동",
+    "slug": "bagdar-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "범계동",
+    "slug": "beomgye-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "부림동",
+    "slug": "burim-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "부흥동",
+    "slug": "buheung-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "비산동",
+    "slug": "bisan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "석수동",
+    "slug": "seoksu-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "신촌동",
+    "slug": "sinchon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "안양동",
+    "slug": "anyang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "인덕원동",
+    "slug": "indeogweon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "충훈동",
+    "slug": "chunghun-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "평촌동",
+    "slug": "pyeongchon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anyang",
+    "dong": "호계동",
+    "slug": "hogye-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "과림동",
+    "slug": "gwarim-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "광석동",
+    "slug": "gwangseog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "광택동",
+    "slug": "gwangtaeg-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "군자동",
+    "slug": "gunja-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "금이동",
+    "slug": "geumi-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "논곡동",
+    "slug": "nongog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "능곡동",
+    "slug": "neunggog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "대야동",
+    "slug": "daeya-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "도창동",
+    "slug": "dochang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "매화동",
+    "slug": "maehwa-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "목감동",
+    "slug": "moggam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "무지내동",
+    "slug": "mujinae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "방산동",
+    "slug": "bangsan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "배곧동",
+    "slug": "baegod-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "산현동",
+    "slug": "sanhyeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "신천동",
+    "slug": "sincheon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "신현동",
+    "slug": "sinhyeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "연성동",
+    "slug": "yeonseong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "은행동",
+    "slug": "eunhaeng-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "장곡동",
+    "slug": "janggog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "장현동",
+    "slug": "janghyeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "정왕동",
+    "slug": "jeongwang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "초평동",
+    "slug": "chopyeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "포동",
+    "slug": "po-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "하상동",
+    "slug": "hasang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "siheung",
+    "dong": "하중동",
+    "slug": "hajung-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gimpo",
+    "dong": "감정동",
+    "slug": "gamjeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gimpo",
+    "dong": "걸포동",
+    "slug": "georpo-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gimpo",
+    "dong": "고촌읍",
+    "slug": "gochon-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gimpo",
+    "dong": "구래동",
+    "slug": "gurae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gimpo",
+    "dong": "대곶면",
+    "slug": "daegod-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gimpo",
+    "dong": "마산동",
+    "slug": "masan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gimpo",
+    "dong": "북변동",
+    "slug": "bugbyeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gimpo",
+    "dong": "사우동",
+    "slug": "sau-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gimpo",
+    "dong": "양촌읍",
+    "slug": "yangchon-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gimpo",
+    "dong": "운양동",
+    "slug": "unyang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gimpo",
+    "dong": "월곶면",
+    "slug": "weorgod-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gimpo",
+    "dong": "장기동",
+    "slug": "janggi-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gimpo",
+    "dong": "통진읍",
+    "slug": "tongjin-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gimpo",
+    "dong": "풍무동",
+    "slug": "pungmu-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gimpo",
+    "dong": "하성면",
+    "slug": "haseong-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "namyangju",
+    "dong": "금곡동",
+    "slug": "geumgog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "namyangju",
+    "dong": "다산동",
+    "slug": "dasan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "namyangju",
+    "dong": "도농동",
+    "slug": "donong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "namyangju",
+    "dong": "별가곡동",
+    "slug": "byeorgagog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "namyangju",
+    "dong": "별내동",
+    "slug": "byeornae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "namyangju",
+    "dong": "별내면",
+    "slug": "byeornae-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "namyangju",
+    "dong": "수동면",
+    "slug": "sudong-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "namyangju",
+    "dong": "오남읍",
+    "slug": "onam-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "namyangju",
+    "dong": "왕숙동",
+    "slug": "wangsug-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "namyangju",
+    "dong": "이패동",
+    "slug": "ipae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "namyangju",
+    "dong": "조안면",
+    "slug": "joan-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "namyangju",
+    "dong": "지금동",
+    "slug": "jigeum-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "namyangju",
+    "dong": "진접읍",
+    "slug": "jinjeob-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "namyangju",
+    "dong": "퇴계원면",
+    "slug": "toegyeweon-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "namyangju",
+    "dong": "평내동",
+    "slug": "pyeongnae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "namyangju",
+    "dong": "호평동",
+    "slug": "hopyeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "namyangju",
+    "dong": "화도읍",
+    "slug": "hwado-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "광탄면",
+    "slug": "gwangtan-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "교하동",
+    "slug": "gyoha-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "군내면",
+    "slug": "gunnae-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "금촌동",
+    "slug": "geumchon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "다율동",
+    "slug": "dayur-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "목동동",
+    "slug": "mogdong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "문산읍",
+    "slug": "munsan-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "법원읍",
+    "slug": "beobweon-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "산남동",
+    "slug": "sannam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "송촌동",
+    "slug": "songchon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "야당동",
+    "slug": "yadang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "완동동",
+    "slug": "wandong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "운정동",
+    "slug": "unjeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "장단면",
+    "slug": "jangdan-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "적성면",
+    "slug": "jeokseong-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "조리면",
+    "slug": "jori-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "청산동",
+    "slug": "cheongsan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "탄현면",
+    "slug": "tanhyeon-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "paju",
+    "dong": "파주읍",
+    "slug": "paju-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uijeongbu",
+    "dong": "가능동",
+    "slug": "ganeung-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uijeongbu",
+    "dong": "고산동",
+    "slug": "gosan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uijeongbu",
+    "dong": "금오동",
+    "slug": "geumo-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uijeongbu",
+    "dong": "낙양동",
+    "slug": "nagyang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uijeongbu",
+    "dong": "녹양동",
+    "slug": "nogyang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uijeongbu",
+    "dong": "민락동",
+    "slug": "minrag-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uijeongbu",
+    "dong": "산곡동",
+    "slug": "sangog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uijeongbu",
+    "dong": "수락산동",
+    "slug": "suraksan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uijeongbu",
+    "dong": "신곡동",
+    "slug": "singog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uijeongbu",
+    "dong": "영석동",
+    "slug": "yeongseog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uijeongbu",
+    "dong": "용현동",
+    "slug": "yonghyeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uijeongbu",
+    "dong": "의정부동",
+    "slug": "uijeongbu-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uijeongbu",
+    "dong": "자금동",
+    "slug": "jageum-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uijeongbu",
+    "dong": "장암동",
+    "slug": "jangam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uijeongbu",
+    "dong": "호원동",
+    "slug": "howeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uijeongbu",
+    "dong": "흥선동",
+    "slug": "heungseon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hanam",
+    "dong": "감이동",
+    "slug": "gami-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hanam",
+    "dong": "감일동",
+    "slug": "gamir-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hanam",
+    "dong": "광암동",
+    "slug": "gwangam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hanam",
+    "dong": "교산동",
+    "slug": "gyosan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hanam",
+    "dong": "덕풍동",
+    "slug": "deogpung-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hanam",
+    "dong": "미사동",
+    "slug": "misa-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hanam",
+    "dong": "상산곡동",
+    "slug": "sangsangog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hanam",
+    "dong": "신장동",
+    "slug": "sinjang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hanam",
+    "dong": "창우동",
+    "slug": "changu-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hanam",
+    "dong": "천호동",
+    "slug": "cheonho-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hanam",
+    "dong": "초이동",
+    "slug": "choi-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hanam",
+    "dong": "춘궁동",
+    "slug": "chungung-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hanam",
+    "dong": "풍산동",
+    "slug": "pungsan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hanam",
+    "dong": "하산곡동",
+    "slug": "hasangog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hanam",
+    "dong": "학암동",
+    "slug": "hagam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "hanam",
+    "dong": "항동",
+    "slug": "hang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangmyeong",
+    "dong": "광명동",
+    "slug": "gwangmyeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangmyeong",
+    "dong": "광명사거리동",
+    "slug": "gwangmyeongsageori-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangmyeong",
+    "dong": "노온사동",
+    "slug": "noonsa-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangmyeong",
+    "dong": "소하동",
+    "slug": "soha-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangmyeong",
+    "dong": "옥길동",
+    "slug": "oggir-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangmyeong",
+    "dong": "일직동",
+    "slug": "irjig-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangmyeong",
+    "dong": "철산동",
+    "slug": "cheorsan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangmyeong",
+    "dong": "하안동",
+    "slug": "haan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "guri",
+    "dong": "갈매동",
+    "slug": "garmae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "guri",
+    "dong": "교문동",
+    "slug": "gyomun-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "guri",
+    "dong": "동구동",
+    "slug": "donggu-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "guri",
+    "dong": "부발동",
+    "slug": "bubar-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "guri",
+    "dong": "사노동",
+    "slug": "sano-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "guri",
+    "dong": "수택동",
+    "slug": "sutaeg-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "guri",
+    "dong": "아천동",
+    "slug": "acheon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "guri",
+    "dong": "인창동",
+    "slug": "inchang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "guri",
+    "dong": "장자동",
+    "slug": "jangja-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "guri",
+    "dong": "토평동",
+    "slug": "topyeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gunpo",
+    "dong": "광정동",
+    "slug": "gwangjeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gunpo",
+    "dong": "궁내동",
+    "slug": "gungnae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gunpo",
+    "dong": "금정동",
+    "slug": "geumjeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gunpo",
+    "dong": "당정동",
+    "slug": "dangjeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gunpo",
+    "dong": "대야동",
+    "slug": "daeya-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gunpo",
+    "dong": "부곡동",
+    "slug": "bugog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gunpo",
+    "dong": "산본동",
+    "slug": "sanbon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gunpo",
+    "dong": "송부동",
+    "slug": "songbu-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gunpo",
+    "dong": "수리동",
+    "slug": "suri-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gunpo",
+    "dong": "오금동",
+    "slug": "ogeum-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "osan",
+    "dong": "가수동",
+    "slug": "gasu-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "osan",
+    "dong": "갈곶동",
+    "slug": "gargod-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "osan",
+    "dong": "고현동",
+    "slug": "gohyeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "osan",
+    "dong": "대원동",
+    "slug": "daeweon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "osan",
+    "dong": "부산동",
+    "slug": "busan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "osan",
+    "dong": "서동",
+    "slug": "seo-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "osan",
+    "dong": "세교동",
+    "slug": "segyo-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "osan",
+    "dong": "신장동",
+    "slug": "sinjang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "osan",
+    "dong": "양산동",
+    "slug": "yangsan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "osan",
+    "dong": "원동",
+    "slug": "weon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "osan",
+    "dong": "은계동",
+    "slug": "eungye-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "osan",
+    "dong": "중앙동",
+    "slug": "jungang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "osan",
+    "dong": "지곡동",
+    "slug": "jigog-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "osan",
+    "dong": "청호동",
+    "slug": "cheongho-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "osan",
+    "dong": "초평동",
+    "slug": "chopyeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uiwang",
+    "dong": "고천동",
+    "slug": "gocheon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uiwang",
+    "dong": "내손동",
+    "slug": "naeson-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uiwang",
+    "dong": "삼동",
+    "slug": "sam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uiwang",
+    "dong": "오전동",
+    "slug": "ojeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uiwang",
+    "dong": "월암동",
+    "slug": "weoram-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uiwang",
+    "dong": "청계동",
+    "slug": "cheonggye-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uiwang",
+    "dong": "포일동",
+    "slug": "poir-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "uiwang",
+    "dong": "학의동",
+    "slug": "hagui-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwacheon",
+    "dong": "갈현동",
+    "slug": "garhyeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwacheon",
+    "dong": "과천동",
+    "slug": "gwacheon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwacheon",
+    "dong": "관문동",
+    "slug": "gwanmun-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwacheon",
+    "dong": "문원동",
+    "slug": "munweon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwacheon",
+    "dong": "별양동",
+    "slug": "byeoryang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwacheon",
+    "dong": "부림동",
+    "slug": "burim-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwacheon",
+    "dong": "주암동",
+    "slug": "juam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwacheon",
+    "dong": "중앙동",
+    "slug": "jungang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangju-si",
+    "dong": "경안동",
+    "slug": "gyeongan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangju-si",
+    "dong": "곤지암읍",
+    "slug": "gonjiam-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangju-si",
+    "dong": "남종면",
+    "slug": "namjong-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangju-si",
+    "dong": "남한산성면",
+    "slug": "namhansanseong-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangju-si",
+    "dong": "도척면",
+    "slug": "docheog-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangju-si",
+    "dong": "목동동",
+    "slug": "mogdong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangju-si",
+    "dong": "삼동",
+    "slug": "sam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangju-si",
+    "dong": "송정동",
+    "slug": "songjeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangju-si",
+    "dong": "신촌동",
+    "slug": "sinchon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangju-si",
+    "dong": "실촌동",
+    "slug": "sirchon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangju-si",
+    "dong": "쌍령동",
+    "slug": "ssangryeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangju-si",
+    "dong": "양벌동",
+    "slug": "yangbeor-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangju-si",
+    "dong": "역원동",
+    "slug": "yeogweon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangju-si",
+    "dong": "오포읍",
+    "slug": "opo-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangju-si",
+    "dong": "중대동",
+    "slug": "jungdae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangju-si",
+    "dong": "초월읍",
+    "slug": "choweor-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangju-si",
+    "dong": "태전동",
+    "slug": "taejeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gwangju-si",
+    "dong": "퇴촌면",
+    "slug": "toechon-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "icheon",
+    "dong": "고담동",
+    "slug": "godam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "icheon",
+    "dong": "관고동",
+    "slug": "gwango-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "icheon",
+    "dong": "대월면",
+    "slug": "daeweor-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "icheon",
+    "dong": "마장면",
+    "slug": "majang-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "icheon",
+    "dong": "모가면",
+    "slug": "moga-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "icheon",
+    "dong": "백사면",
+    "slug": "baeksa-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "icheon",
+    "dong": "부발읍",
+    "slug": "bubar-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "icheon",
+    "dong": "설성면",
+    "slug": "seorseong-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "icheon",
+    "dong": "송정동",
+    "slug": "songjeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "icheon",
+    "dong": "신둔면",
+    "slug": "sindun-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "icheon",
+    "dong": "안흥동",
+    "slug": "anheung-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "icheon",
+    "dong": "율현동",
+    "slug": "yurhyeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "icheon",
+    "dong": "장호원읍",
+    "slug": "janghoweon-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "icheon",
+    "dong": "중리동",
+    "slug": "jungri-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "icheon",
+    "dong": "증포동",
+    "slug": "jeungpo-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "icheon",
+    "dong": "진리동",
+    "slug": "jinri-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "icheon",
+    "dong": "창전동",
+    "slug": "changjeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "icheon",
+    "dong": "호법면",
+    "slug": "hobeob-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "가현동",
+    "slug": "gahyeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "고삼면",
+    "slug": "gosam-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "공도읍",
+    "slug": "gongdo-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "구포동",
+    "slug": "gupo-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "금광면",
+    "slug": "geumgwang-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "낙원동",
+    "slug": "nagweon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "대덕구",
+    "slug": "daedeoggu"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "대덕면",
+    "slug": "daedeog-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "미양면",
+    "slug": "miyang-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "보개면",
+    "slug": "bogae-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "봉남동",
+    "slug": "bongnam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "삼죽면",
+    "slug": "samjug-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "서인동",
+    "slug": "seoin-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "신소현동",
+    "slug": "sinsohyeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "아양동",
+    "slug": "ayang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "양성면",
+    "slug": "yangseong-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "영동",
+    "slug": "yeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "옥천동",
+    "slug": "okcheon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "원곡면",
+    "slug": "weongog-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "일죽면",
+    "slug": "irjug-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "죽산면",
+    "slug": "juksan-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "anseong",
+    "dong": "중앙동",
+    "slug": "jungang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoju",
+    "dong": "강천면",
+    "slug": "gangcheon-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoju",
+    "dong": "관농동",
+    "slug": "gwannong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoju",
+    "dong": "교동",
+    "slug": "gyo-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoju",
+    "dong": "금사면",
+    "slug": "geumsa-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoju",
+    "dong": "능서면",
+    "slug": "neungseo-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoju",
+    "dong": "대신면",
+    "slug": "daesin-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoju",
+    "dong": "북내면",
+    "slug": "bugnae-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoju",
+    "dong": "산북면",
+    "slug": "sanbug-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoju",
+    "dong": "세종대왕면",
+    "slug": "sejongdaewang-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoju",
+    "dong": "연라동",
+    "slug": "yeonra-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoju",
+    "dong": "오학동",
+    "slug": "ohag-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoju",
+    "dong": "점동면",
+    "slug": "jeomdong-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoju",
+    "dong": "점봉동",
+    "slug": "jeombong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoju",
+    "dong": "중앙동",
+    "slug": "jungang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoju",
+    "dong": "창동",
+    "slug": "chang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoju",
+    "dong": "하동",
+    "slug": "ha-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoju",
+    "dong": "흥천면",
+    "slug": "heungcheon-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangpyeong",
+    "dong": "강상면",
+    "slug": "gangsang-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangpyeong",
+    "dong": "강하면",
+    "slug": "gangha-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangpyeong",
+    "dong": "개군면",
+    "slug": "gaegun-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangpyeong",
+    "dong": "단월면",
+    "slug": "danweor-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangpyeong",
+    "dong": "서종면",
+    "slug": "seojong-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangpyeong",
+    "dong": "양동면",
+    "slug": "yangdong-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangpyeong",
+    "dong": "양서면",
+    "slug": "yangseo-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangpyeong",
+    "dong": "양평동",
+    "slug": "yangpyeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangpyeong",
+    "dong": "옥천면",
+    "slug": "okcheon-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangpyeong",
+    "dong": "용문면",
+    "slug": "yongmun-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangpyeong",
+    "dong": "지제면",
+    "slug": "jije-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangpyeong",
+    "dong": "지평동",
+    "slug": "jipyeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangpyeong",
+    "dong": "청운면",
+    "slug": "cheongun-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangju",
+    "dong": "고읍동",
+    "slug": "goeub-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangju",
+    "dong": "광사동",
+    "slug": "gwangsa-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangju",
+    "dong": "광적면",
+    "slug": "gwangjeog-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangju",
+    "dong": "남면",
+    "slug": "nam-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangju",
+    "dong": "남방동",
+    "slug": "nambang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangju",
+    "dong": "덕계동",
+    "slug": "deoggye-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangju",
+    "dong": "만승동",
+    "slug": "manseung-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangju",
+    "dong": "백석읍",
+    "slug": "baekseog-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangju",
+    "dong": "봉양동",
+    "slug": "bongyang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangju",
+    "dong": "삼숭동",
+    "slug": "samsung-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangju",
+    "dong": "양주동",
+    "slug": "yangju-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangju",
+    "dong": "어룡동",
+    "slug": "eoryong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangju",
+    "dong": "은현면",
+    "slug": "eunhyeon-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangju",
+    "dong": "장흥면",
+    "slug": "jangheung-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangju",
+    "dong": "회암동",
+    "slug": "hoeam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangju",
+    "dong": "회정동",
+    "slug": "hoejeong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yangju",
+    "dong": "회천동",
+    "slug": "hoecheon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pocheon",
+    "dong": "가산면",
+    "slug": "gasan-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pocheon",
+    "dong": "관인면",
+    "slug": "gwanin-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pocheon",
+    "dong": "군내면",
+    "slug": "gunnae-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pocheon",
+    "dong": "내촌면",
+    "slug": "naechon-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pocheon",
+    "dong": "산정호수도시",
+    "slug": "sanjeonghosudosi"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pocheon",
+    "dong": "선단동",
+    "slug": "seondan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pocheon",
+    "dong": "소흘읍",
+    "slug": "soheur-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pocheon",
+    "dong": "신북면",
+    "slug": "sinbug-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pocheon",
+    "dong": "어룡동",
+    "slug": "eoryong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pocheon",
+    "dong": "영북면",
+    "slug": "yeongbug-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pocheon",
+    "dong": "영중면",
+    "slug": "yeongjung-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pocheon",
+    "dong": "이동면",
+    "slug": "idong-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pocheon",
+    "dong": "일동면",
+    "slug": "irdong-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pocheon",
+    "dong": "자작동",
+    "slug": "jajag-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pocheon",
+    "dong": "창수면",
+    "slug": "changsu-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pocheon",
+    "dong": "포천동",
+    "slug": "pocheon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "pocheon",
+    "dong": "화현면",
+    "slug": "hwahyeon-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "dongducheon",
+    "dong": "걸산동",
+    "slug": "georsan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "dongducheon",
+    "dong": "광암동",
+    "slug": "gwangam-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "dongducheon",
+    "dong": "보산동",
+    "slug": "bosan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "dongducheon",
+    "dong": "상패동",
+    "slug": "sangpae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "dongducheon",
+    "dong": "생연동",
+    "slug": "saengyeon-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "dongducheon",
+    "dong": "송내동",
+    "slug": "songnae-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "dongducheon",
+    "dong": "수산동",
+    "slug": "susan-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "dongducheon",
+    "dong": "안흥동",
+    "slug": "anheung-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "dongducheon",
+    "dong": "중앙동",
+    "slug": "jungang-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "dongducheon",
+    "dong": "지행동",
+    "slug": "jihaeng-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "dongducheon",
+    "dong": "탑동동",
+    "slug": "tabdong-dong"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gapyeong",
+    "dong": "가평읍",
+    "slug": "gapyeong-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gapyeong",
+    "dong": "북면",
+    "slug": "bug-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gapyeong",
+    "dong": "상면",
+    "slug": "sang-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gapyeong",
+    "dong": "설악면",
+    "slug": "seorag-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gapyeong",
+    "dong": "조종면",
+    "slug": "jojong-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gapyeong",
+    "dong": "청평면",
+    "slug": "cheongpyeong-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "gapyeong",
+    "dong": "하면",
+    "slug": "ha-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoncheon",
+    "dong": "군남면",
+    "slug": "gunnam-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoncheon",
+    "dong": "미산면",
+    "slug": "misan-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoncheon",
+    "dong": "백학면",
+    "slug": "baeghag-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoncheon",
+    "dong": "신서면",
+    "slug": "sinseo-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoncheon",
+    "dong": "연천읍",
+    "slug": "yeoncheon-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoncheon",
+    "dong": "왕징면",
+    "slug": "wangjing-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoncheon",
+    "dong": "장남면",
+    "slug": "jangnam-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoncheon",
+    "dong": "전곡읍",
+    "slug": "jeongog-eup"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoncheon",
+    "dong": "중면",
+    "slug": "jung-myeon"
+  },
+  {
+    "prov": "gyeonggi",
+    "district": "yeoncheon",
+    "dong": "청산면",
+    "slug": "cheongsan-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "경동",
+    "slug": "gyeong-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "관동",
+    "slug": "gwan-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "남북동",
+    "slug": "nambug-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "내동",
+    "slug": "nae-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "덕교동",
+    "slug": "deoggyo-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "도원동",
+    "slug": "doweon-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "도화동",
+    "slug": "dohwa-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "무의동",
+    "slug": "muui-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "문학동",
+    "slug": "munhag-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "사동",
+    "slug": "sa-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "선화동",
+    "slug": "seonhwa-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "송월동",
+    "slug": "songweor-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "숭의동",
+    "slug": "sungui-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "신생동",
+    "slug": "sinsaeng-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "신포동",
+    "slug": "sinpo-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "신흥동",
+    "slug": "sinheung-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "영종동",
+    "slug": "yeongjong-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "용동",
+    "slug": "yong-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "운남동",
+    "slug": "unnam-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "운서동",
+    "slug": "unseo-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "유량동",
+    "slug": "yuryang-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "율목동",
+    "slug": "yurmog-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "을왕동",
+    "slug": "eurwang-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "주안동",
+    "slug": "juan-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "중산동",
+    "slug": "jungsan-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "중앙동",
+    "slug": "jungang-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "학익동",
+    "slug": "hagig-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "항동",
+    "slug": "hang-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "jung-gu",
+    "dong": "해안동",
+    "slug": "haean-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "dong-gu",
+    "dong": "금곡동",
+    "slug": "geumgog-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "dong-gu",
+    "dong": "만석동",
+    "slug": "manseog-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "dong-gu",
+    "dong": "송림동",
+    "slug": "songrim-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "dong-gu",
+    "dong": "송현동",
+    "slug": "songhyeon-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "dong-gu",
+    "dong": "창영동",
+    "slug": "changyeong-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "dong-gu",
+    "dong": "화수동",
+    "slug": "hwasu-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "dong-gu",
+    "dong": "화평동",
+    "slug": "hwapyeong-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "michuhol-gu",
+    "dong": "간석동",
+    "slug": "ganseog-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "michuhol-gu",
+    "dong": "관교동",
+    "slug": "gwangyo-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "michuhol-gu",
+    "dong": "도화동",
+    "slug": "dohwa-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "michuhol-gu",
+    "dong": "문학동",
+    "slug": "munhag-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "michuhol-gu",
+    "dong": "선학동",
+    "slug": "seonhag-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "michuhol-gu",
+    "dong": "숭의동",
+    "slug": "sungui-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "michuhol-gu",
+    "dong": "신방동",
+    "slug": "sinbang-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "michuhol-gu",
+    "dong": "용현동",
+    "slug": "yonghyeon-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "michuhol-gu",
+    "dong": "주안동",
+    "slug": "juan-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "michuhol-gu",
+    "dong": "학익동",
+    "slug": "hagig-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "yeonsu-gu",
+    "dong": "동춘동",
+    "slug": "dongchun-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "yeonsu-gu",
+    "dong": "선학동",
+    "slug": "seonhag-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "yeonsu-gu",
+    "dong": "송도동",
+    "slug": "songdo-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "yeonsu-gu",
+    "dong": "연수동",
+    "slug": "yeonsu-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "yeonsu-gu",
+    "dong": "옥련동",
+    "slug": "ogryeon-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "yeonsu-gu",
+    "dong": "청학동",
+    "slug": "cheonghag-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "namdong-gu",
+    "dong": "고잔동",
+    "slug": "gojan-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "namdong-gu",
+    "dong": "구월동",
+    "slug": "guweor-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "namdong-gu",
+    "dong": "남촌도",
+    "slug": "namchondo"
+  },
+  {
+    "prov": "incheon",
+    "district": "namdong-gu",
+    "dong": "남촌동",
+    "slug": "namchon-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "namdong-gu",
+    "dong": "논고잔동",
+    "slug": "nongojan-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "namdong-gu",
+    "dong": "논현동",
+    "slug": "nonhyeon-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "namdong-gu",
+    "dong": "도화동",
+    "slug": "dohwa-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "namdong-gu",
+    "dong": "만수동",
+    "slug": "mansu-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "namdong-gu",
+    "dong": "서창동",
+    "slug": "seochang-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "namdong-gu",
+    "dong": "수산동",
+    "slug": "susan-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "namdong-gu",
+    "dong": "운연동",
+    "slug": "unyeon-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "namdong-gu",
+    "dong": "원당동",
+    "slug": "weondang-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "namdong-gu",
+    "dong": "장수동",
+    "slug": "jangsu-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "namdong-gu",
+    "dong": "장수서창동",
+    "slug": "jangsuseochang-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "namdong-gu",
+    "dong": "초월동",
+    "slug": "choweor-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "bupyeong-gu",
+    "dong": "갈산동",
+    "slug": "garsan-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "bupyeong-gu",
+    "dong": "부개동",
+    "slug": "bugae-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "bupyeong-gu",
+    "dong": "부평동",
+    "slug": "bupyeong-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "bupyeong-gu",
+    "dong": "산곡동",
+    "slug": "sangog-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "bupyeong-gu",
+    "dong": "삼산동",
+    "slug": "samsan-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "bupyeong-gu",
+    "dong": "십정동",
+    "slug": "sipjeong-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "bupyeong-gu",
+    "dong": "일신동",
+    "slug": "irsin-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "bupyeong-gu",
+    "dong": "청천동",
+    "slug": "cheongcheon-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "gyeyang-gu",
+    "dong": "갈현동",
+    "slug": "garhyeon-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "gyeyang-gu",
+    "dong": "계산동",
+    "slug": "gyesan-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "gyeyang-gu",
+    "dong": "계양동",
+    "slug": "gyeyang-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "gyeyang-gu",
+    "dong": "귤현동",
+    "slug": "gyurhyeon-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "gyeyang-gu",
+    "dong": "방축동",
+    "slug": "bangchug-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "gyeyang-gu",
+    "dong": "상야동",
+    "slug": "sangya-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "gyeyang-gu",
+    "dong": "오류동",
+    "slug": "oryu-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "gyeyang-gu",
+    "dong": "용종동",
+    "slug": "yongjong-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "gyeyang-gu",
+    "dong": "임학동",
+    "slug": "imhag-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "gyeyang-gu",
+    "dong": "작전동",
+    "slug": "jakjeon-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "gyeyang-gu",
+    "dong": "평동",
+    "slug": "pyeong-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "gyeyang-gu",
+    "dong": "효성동",
+    "slug": "hyoseong-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "가정동",
+    "slug": "gajeong-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "가좌동",
+    "slug": "gajwa-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "검암동",
+    "slug": "geomam-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "경서동",
+    "slug": "gyeongseo-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "금곡동",
+    "slug": "geumgog-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "당하동",
+    "slug": "dangha-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "마전동",
+    "slug": "majeon-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "백석동",
+    "slug": "baekseog-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "봉수동",
+    "slug": "bongsu-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "불로동",
+    "slug": "burro-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "석남동",
+    "slug": "seognam-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "시천동",
+    "slug": "sicheon-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "신현동",
+    "slug": "sinhyeon-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "연희동",
+    "slug": "yeonhui-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "오류동",
+    "slug": "oryu-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "완정동",
+    "slug": "wanjeong-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "왕길동",
+    "slug": "wanggir-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "원당동",
+    "slug": "weondang-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "원창동",
+    "slug": "weonchang-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "seo-gu",
+    "dong": "청라동",
+    "slug": "cheongra-dong"
+  },
+  {
+    "prov": "incheon",
+    "district": "ganghwa-gun",
+    "dong": "강화읍",
+    "slug": "ganghwa-eup"
+  },
+  {
+    "prov": "incheon",
+    "district": "ganghwa-gun",
+    "dong": "교동면",
+    "slug": "gyodong-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "ganghwa-gun",
+    "dong": "길상면",
+    "slug": "girsang-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "ganghwa-gun",
+    "dong": "불은면",
+    "slug": "bureun-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "ganghwa-gun",
+    "dong": "삼산면",
+    "slug": "samsan-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "ganghwa-gun",
+    "dong": "서도면",
+    "slug": "seodo-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "ganghwa-gun",
+    "dong": "송해면",
+    "slug": "songhae-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "ganghwa-gun",
+    "dong": "양도면",
+    "slug": "yangdo-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "ganghwa-gun",
+    "dong": "양사면",
+    "slug": "yangsa-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "ganghwa-gun",
+    "dong": "연리면",
+    "slug": "yeonri-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "ganghwa-gun",
+    "dong": "하점면",
+    "slug": "hajeom-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "ganghwa-gun",
+    "dong": "화도면",
+    "slug": "hwado-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "ongjin-gun",
+    "dong": "대청면",
+    "slug": "daecheong-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "ongjin-gun",
+    "dong": "덕적면",
+    "slug": "deokjeog-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "ongjin-gun",
+    "dong": "백령면",
+    "slug": "baegryeong-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "ongjin-gun",
+    "dong": "북도면",
+    "slug": "bugdo-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "ongjin-gun",
+    "dong": "소청면",
+    "slug": "socheong-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "ongjin-gun",
+    "dong": "연평면",
+    "slug": "yeonpyeong-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "ongjin-gun",
+    "dong": "영흥면",
+    "slug": "yeongheung-myeon"
+  },
+  {
+    "prov": "incheon",
+    "district": "ongjin-gun",
+    "dong": "자월면",
+    "slug": "jaweor-myeon"
+  }
+]

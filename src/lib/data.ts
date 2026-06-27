@@ -8,6 +8,7 @@
  * draft / noindex 항목은 페이지를 만들되 robots noindex 메타를 삽입한다.
  */
 import type { LifeArea, DistrictData, UseCaseData, ChecklistItem, Province } from './types';
+import { romanize } from './romanize';
 import seoulLifeAreas from '../data/seoul/life-areas.json';
 import gyeonggiLifeAreas from '../data/gyeonggi/life-areas.json';
 import incheonLifeAreas from '../data/incheon/life-areas.json';
@@ -117,42 +118,36 @@ export function getDongsByDistrict(province: Province, districtSlug: string): st
 }
 
 /**
- * 한국어 동명 → URL 안전 슬러그 변환
- * 로마자 표기 대신 일관성·역추적성을 위해 번호 인코딩 사용
- * (예: 역삼동 → dong-1, 논현동 → dong-2)
- * 표시명은 dongSlugToName()로 원복 가능 (동 데이터 배열에서 인덱스로 조회)
+ * 행정동 슬러그 처리
+ * 동명(한글) → 로마자 슬러그 변환 (「국어의 로마자 표기법」 준수)
+ * SEO를 위해 영문 슬러그 사용: 역삼동 → yeoksam-dong, 청담동 → cheongdam-dong
  */
-
-/** 동 슬러그 → 동명 변환 (특정 구 내에서 역추적) */
-export function dongSlugToName(
-  slug: string,
-  province?: Province,
-  districtSlug?: string
-): string {
-  // dong-{n} 패턴이면 구 데이터에서 인덱스로 역추적
-  const match = /^dong-(\d+)$/.exec(slug);
-  if (match && province && districtSlug) {
-    const idx = parseInt(match[1], 10) - 1;
-    const dongs = getDongsByDistrict(province, districtSlug);
-    return dongs[idx] ?? slug;
-  }
-  // 폴백: 범용 (슬러그 자체가 동명일 때)
-  return slug.replace(/-/g, ' ');
-}
 
 /**
  * 특정 구의 모든 행정동을 {name, slug} 형태로 반환 (페이지 생성용)
- * 동명은 중복될 수 있으므로 인덱스 기반 슬러그 사용
+ * 로마자 슬러그 사용 (예: 역삼동 → yeoksam-dong)
+ * 동일 구/시군 내 슬러그 충돌 시 접미사 -2, -3 부여
  */
 export function getDongList(
   province: Province,
   districtSlug: string
 ): { name: string; slug: string }[] {
   const dongs = getDongsByDistrict(province, districtSlug);
-  return dongs.map((name, idx) => ({
-    name,
-    slug: `dong-${idx + 1}`,
-  }));
+  const seen = new Map<string, number>();
+  const result: { name: string; slug: string }[] = [];
+  for (const name of dongs) {
+    let slug = romanize(name);
+    // 동일 구 내 슬러그 충돌 처리
+    if (seen.has(slug)) {
+      const count = (seen.get(slug) || 1) + 1;
+      seen.set(slug, count);
+      slug = `${slug}-${count}`;
+    } else {
+      seen.set(slug, 1);
+    }
+    result.push({ name, slug });
+  }
+  return result;
 }
 
 /** 특정 동 슬러그로 단일 동 조회 */
@@ -162,6 +157,19 @@ export function getDong(
   dongSlug: string
 ): { name: string; slug: string } | undefined {
   return getDongList(province, districtSlug).find((d) => d.slug === dongSlug);
+}
+
+/** 동 슬러그 → 동명 변환 (특정 구 내에서 역추적) */
+export function dongSlugToName(
+  slug: string,
+  province?: Province,
+  districtSlug?: string
+): string {
+  if (province && districtSlug) {
+    const dong = getDong(province, districtSlug, slug);
+    if (dong) return dong.name;
+  }
+  return slug.replace(/-/g, ' ');
 }
 
 /**
