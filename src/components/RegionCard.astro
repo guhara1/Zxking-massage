@@ -1,0 +1,23 @@
+---
+/**
+ * 지역 카드 컴포넌트 - 서울/경기/인천 허브 안내에서 사용
+ */
+interface Props {
+  name: string;          // 지역명 (예: "서울")
+  description: string;   // 설명
+  href: string;          // 링크 URL (예: /seoul/)
+  highlights: string[];  // 핵심 지역 목록
+  label?: string;        // 버튼 라벨 (기본: "{name} 보기")
+}
+
+const { name, description, href, highlights, label } = Astro.props;
+---
+
+<a href={href} class="card" style="padding: 32px;">
+  <h3 class="card__title" style="font-size: 1.5rem;">{name}</h3>
+  <p class="card__desc">{description}</p>
+  <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px;">
+    {highlights.map((h) => <span class="tag">{h}</span>)}
+  </div>
+  <span class="btn btn-secondary">{label ?? `${name} 보기`}</span>
+</a>

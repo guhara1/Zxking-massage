@@ -1,0 +1,210 @@
+---
+/**
+ * 수도권 메인 페이지 (/)
+ * 스펙 10절 섹션 구성 준수
+ */
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Checklist from '../components/Checklist.astro';
+import RegionCard from '../components/RegionCard.astro';
+import LifeAreaCard from '../components/LifeAreaCard.astro';
+import { siteConfig } from '../data/site';
+import { getReadyLifeAreas, getLifeAreaCount, getAllUseCases } from '../lib/data';
+import {
+  webPageSchema,
+  breadcrumbSchema,
+  organizationSchema,
+  webSiteSchema,
+} from '../lib/schema';
+
+const path = '/';
+const title = siteConfig.title;
+const description = siteConfig.description;
+
+// 핵심 생활권 데이터 (1차-A)
+const seoulAreas = getReadyLifeAreas('seoul');
+const gyeonggiAreas = getReadyLifeAreas('gyeonggi');
+const incheonAreas = getReadyLifeAreas('incheon');
+const totalLifeAreas = seoulAreas.length + gyeonggiAreas.length + incheonAreas.length;
+const totalUseCases = getAllUseCases().length;
+
+const breadcrumbs = [
+  { name: '홈', url: '/' },
+  { name: '수도권 출장마사지', url: '/' },
+];
+
+const schemas = [
+  organizationSchema(),
+  webSiteSchema(),
+  breadcrumbSchema(breadcrumbs),
+  webPageSchema(path, title, description, breadcrumbs),
+];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path={path}
+  schemas={schemas}
+>
+  <div class="container">
+
+    {/* ============================================
+        Hero
+        ============================================ */}
+    <section style="padding: 64px 0 48px;">
+      <div class="breadcrumb" style="padding: 0 0 24px;">
+        <span class="breadcrumb__current">서울·경기·인천 수도권</span>
+      </div>
+      <h1 style="font-size: 2.4rem; font-weight: 800; line-height: 1.35; letter-spacing: -0.02em; margin-bottom: 20px; color: var(--color-text);">
+        서울·경기·인천 출장마사지 ·<br />수도권 방문 가능 지역 안내
+      </h1>
+      <p style="font-size: 1.1rem; color: var(--color-text-soft); max-width: 680px; margin-bottom: 32px; line-height: 1.7;">
+        서울, 경기, 인천 주요 생활권별 방문 가능 지역과 자택·호텔·오피스텔 이용 기준,
+        추가 이동비, 예약 전 확인사항을 안내합니다.
+      </p>
+      <div style="display: flex; flex-wrap: wrap; gap: 12px;">
+        <a href="/seoul/" class="btn btn-primary">서울 보기</a>
+        <a href="/gyeonggi/" class="btn btn-primary">경기 보기</a>
+        <a href="/incheon/" class="btn btn-primary">인천 보기</a>
+        <a href="/life/" class="btn btn-secondary">생활권 찾기</a>
+        <a href="/check/" class="btn btn-secondary">예약 전 확인</a>
+      </div>
+    </section>
+
+    {/* ============================================
+        Section 1. 수도권은 생활권 기준
+        ============================================ */}
+    <section class="section" style="border-top: 1px solid var(--color-border);">
+
+      {/* 통계 배지 */}
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; margin-bottom: 40px;">
+        <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius); padding: 24px; text-align: center; box-shadow: var(--shadow-sm);">
+          <div style="font-size: 2rem; font-weight: 800; color: var(--color-primary);">3</div>
+          <div style="font-size: 0.85rem; color: var(--color-text-soft); margin-top: 4px;">수도권 광역단체</div>
+        </div>
+        <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius); padding: 24px; text-align: center; box-shadow: var(--shadow-sm);">
+          <div style="font-size: 2rem; font-weight: 800; color: var(--color-primary);">{totalLifeAreas}</div>
+          <div style="font-size: 0.85rem; color: var(--color-text-soft); margin-top: 4px;">핵심 생활권 안내</div>
+        </div>
+        <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius); padding: 24px; text-align: center; box-shadow: var(--shadow-sm);">
+          <div style="font-size: 2rem; font-weight: 800; color: var(--color-primary);">{totalUseCases}</div>
+          <div style="font-size: 0.85rem; color: var(--color-text-soft); margin-top: 4px;">이용 장소별 안내</div>
+        </div>
+        <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius); padding: 24px; text-align: center; box-shadow: var(--shadow-sm);">
+          <div style="font-size: 2rem; font-weight: 800; color: var(--color-primary);">9</div>
+          <div style="font-size: 0.85rem; color: var(--color-text-soft); margin-top: 4px;">예약 전 확인 항목</div>
+        </div>
+      </div>
+
+      <h2 class="section-title">
+        서울·경기·인천 출장마사지는 생활권 기준이 중요합니다
+      </h2>
+      <div class="prose" style="max-width: 760px;">
+        <p>
+          수도권은 행정구역만으로 예약 기준을 판단하기 어렵습니다. 같은 구 안에서도 역세권과
+          주거 지역, 업무지구와 외곽은 방문 환경이 전혀 다르기 때문입니다.
+        </p>
+        <p>
+          <strong>서울</strong>은 행정구와 지하철역 기준이 강하고,
+          <strong>경기</strong>는 시·군과 신도시, 차량 이동 기준이 함께 작용합니다.
+          <strong>인천</strong>은 구·군별 생활권과 공항·도서 지역 여부가 중요한 변수입니다.
+        </p>
+        <p>
+          그래서 이 사이트는 행정구역, 역세권, 생활권, 이용 장소를 나누어 안내합니다.
+          단순히 지역명만 바꾼 페이지가 아니라, 각 지역의 실제 방문 환경과 예약 전 확인사항을
+          차별화하여 제공합니다.
+        </p>
+      </div>
+    </section>
+
+    {/* ============================================
+        Section 2. 지역별 안내
+        ============================================ */}
+    <section class="section" style="border-top: 1px solid var(--color-border);">
+      <h2 class="section-title">서울·경기·인천 지역별 안내</h2>
+      <p class="section-subtitle">
+        광역자치단체별 핵심 생활권과 방문 특성을 확인하세요.
+      </p>
+      <div class="card-grid">
+        <RegionCard
+          name="서울"
+          description="강남, 잠실, 홍대, 여의도, 성수, 용산, 목동, 연신내 중심의 25개 행정구와 핵심 역세권."
+          href="/seoul/"
+          highlights={['강남역·역삼', '잠실·송파', '홍대·합정', '여의도·영등포']}
+        />
+        <RegionCard
+          name="경기"
+          description="수원, 분당, 용인, 부천, 안산, 안양, 일산, 동탄, 의정부 중심의 31개 시·군."
+          href="/gyeonggi/"
+          highlights={['수원역·인계동', '분당·판교', '동탄신도시', '일산·킨텍스']}
+        />
+        <RegionCard
+          name="인천"
+          description="송도, 부평, 구월, 주안, 청라, 검단, 영종, 인천공항 중심의 8구·2군 생활권."
+          href="/incheon/"
+          highlights={['송도국제도시', '구월·인천시청', '부평역·부평시장', '청라국제도시']}
+        />
+      </div>
+    </section>
+
+    {/* ============================================
+        Section 3. 수도권 핵심 생활권
+        ============================================ */}
+    <section class="section" style="border-top: 1px solid var(--color-border);">
+      <h2 class="section-title">수도권 주요 생활권별 방문 가능 지역</h2>
+      <p class="section-subtitle">
+        행정구역이 아닌 실제 생활권 단위로 방문 환경을 확인하세요.
+      </p>
+
+      <h3 style="font-size: 1.15rem; font-weight: 600; margin-bottom: 16px;">서울 생활권</h3>
+      <div class="card-grid" style="margin-bottom: 40px;">
+        {seoulAreas.map((area) => <LifeAreaCard area={area} />)}
+      </div>
+
+      <h3 style="font-size: 1.15rem; font-weight: 600; margin-bottom: 16px;">경기 생활권</h3>
+      <div class="card-grid" style="margin-bottom: 40px;">
+        {gyeonggiAreas.map((area) => <LifeAreaCard area={area} />)}
+      </div>
+
+      <h3 style="font-size: 1.15rem; font-weight: 600; margin-bottom: 16px;">인천 생활권</h3>
+      <div class="card-grid">
+        {incheonAreas.map((area) => <LifeAreaCard area={area} />)}
+      </div>
+    </section>
+
+    {/* ============================================
+        Section 4. 예약 전 체크리스트
+        ============================================ */}
+    <section class="section" style="border-top: 1px solid var(--color-border);">
+      <Checklist />
+    </section>
+
+    {/* ============================================
+        Section 5. Google 가이드라인 준수형 운영 기준
+        ============================================ */}
+    <section class="section" style="border-top: 1px solid var(--color-border);">
+      <h2 class="section-title">중복 없는 수도권 지역 페이지 운영 기준</h2>
+      <div class="prose" style="max-width: 760px;">
+        <p>
+          이 사이트는 지역명만 바꾼 얇은 페이지를 만들지 않습니다.
+          각 지역 페이지는 실제 생활권, 가까운 역, 방문 주소 기준, 이용 장소별 확인사항을
+          다르게 작성합니다.
+        </p>
+        <ul>
+          <li>출구별 페이지, 환승역 노선별 페이지, 번호동별 대량 페이지는 만들지 않습니다.</li>
+          <li>본문이 부족한 행정동이나 검색 수요가 낮은 세부 지역은 색인에서 제외합니다.</li>
+          <li>모든 주요 페이지에 예약 전 확인사항과 개인정보 처리 기준을 포함합니다.</li>
+          <li>불법·선정적 서비스 불가 안내를 명확히 제공합니다.</li>
+        </ul>
+        <div class="callout callout-info">
+          <div class="callout__title">정보 안내 목적 안내</div>
+          본 사이트는 합법적인 방문형 건강 관리(스포츠 마사지, 체형 관리 등) 정보 제공 목적으로
+          운영됩니다. 불법 행위 및 선정적 서비스는 제공하지 않으며, 허위 후기나 가짜 평점도
+          사용하지 않습니다.
+        </div>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

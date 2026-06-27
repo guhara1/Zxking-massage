@@ -1,0 +1,83 @@
+---
+/**
+ * 경기 허브 페이지 (/gyeonggi/)
+ * 스펙 6절 경기 구조 / 11절 지역 허브 템플릿
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import HubHero from '../../components/HubHero.astro';
+import LifeAreaCard from '../../components/LifeAreaCard.astro';
+import Checklist from '../../components/Checklist.astro';
+import { getReadyLifeAreas } from '../../lib/data';
+import { webPageSchema, breadcrumbSchema } from '../../lib/schema';
+
+const path = '/gyeonggi/';
+const title = '경기 출장마사지｜수원·분당·용인·부천·동탄 등 31개 시군 방문 가능 지역 안내';
+const description =
+  '경기도 출장마사지·홈타이 수원, 분당, 용인, 부천, 안산, 안양, 일산, 동탄, 의정부 등 31개 시·군 핵심 생활권과 신도시별 방문 가능 지역을 안내합니다.';
+
+const gyeonggiAreas = getReadyLifeAreas('gyeonggi');
+
+const breadcrumbs = [
+  { name: '홈', url: '/' },
+  { name: '경기', url: '/gyeonggi/' },
+];
+
+const schemas = [
+  breadcrumbSchema(breadcrumbs),
+  webPageSchema(path, title, description, breadcrumbs),
+];
+---
+
+<BaseLayout title={title} description={description} path={path} schemas={schemas}>
+  <div class="container">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <HubHero
+      province="gyeonggi"
+      h1="경기 출장마사지 · 방문 가능 지역 안내"
+      description="경기도는 31개 시·군과 일반구, 신도시, 차량 이동 기준을 함께 안내합니다. 수원·분당·용인 등 남부 핵심 도시부터 의정부·일산 등 북서부, 외곽 지역의 추가 이동비 확인까지 예약 전에 확인하세요."
+      areaCount={gyeonggiAreas.length}
+    />
+
+    {/* 경기 권역 */}
+    <section class="section" style="border-top: 1px solid var(--color-border);">
+      <h2 class="section-title">경기 권역별 안내</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3 class="card__title">경기남부</h3>
+          <p class="card__desc">수원, 성남, 용인, 화성, 평택, 안성, 이천, 여주. 신도시와 역세권 중심.</p>
+        </div>
+        <div class="card">
+          <h3 class="card__title">경기서부</h3>
+          <p class="card__desc">부천, 안산, 시흥, 광명, 김포, 구리, 광명. 서울 접근성 양호한 주거·산업 생활권.</p>
+        </div>
+        <div class="card">
+          <h3 class="card__title">경기북부</h3>
+          <p class="card__desc">의정부, 남양주, 파주, 양주, 동두천, 포천, 가평, 연천. 1호선과 경전철 중심.</p>
+        </div>
+        <div class="card">
+          <h3 class="card__title">경기외곽</h3>
+          <p class="card__desc">양평, 가평, 연천, 포천, 안성, 여주. 차량 이동 가능 여부와 추가 이동비 확인 필수.</p>
+        </div>
+      </div>
+    </section>
+
+    {/* 핵심 생활권 */}
+    <section class="section" style="border-top: 1px solid var(--color-border);">
+      <h2 class="section-title">경기 핵심 생활권</h2>
+      <p class="section-subtitle">
+        시·군이 아닌 실제 생활권 단위로 방문 특성과 차량 이동 기준을 확인하세요.
+      </p>
+      <div class="card-grid">
+        {gyeonggiAreas.map((area) => <LifeAreaCard area={area} />)}
+      </div>
+    </section>
+
+    {/* 예약 전 체크리스트 */}
+    <section class="section" style="border-top: 1px solid var(--color-border);">
+      <Checklist />
+    </section>
+
+  </div>
+</BaseLayout>

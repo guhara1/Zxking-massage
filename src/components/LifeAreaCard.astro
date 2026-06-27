@@ -1,0 +1,23 @@
+---
+/**
+ * 생활권 카드 컴포넌트 - 생활권 목록에서 사용
+ */
+import type { LifeArea } from '../lib/types';
+import { PROVINCE_LABEL } from '../lib/data';
+
+interface Props {
+  area: LifeArea;
+}
+
+const { area } = Astro.props;
+const url = `/${area.province}/life/${area.slug}/`;
+---
+
+<a href={url} class="card">
+  <div class="tag tag-primary" style="margin-bottom: 12px;">
+    {PROVINCE_LABEL[area.province]} 생활권
+  </div>
+  <h3 class="card__title">{area.name}</h3>
+  <p class="card__desc">{area.description}</p>
+  <span class="card__link">방문 가능 지역 보기 →</span>
+</a>

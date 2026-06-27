@@ -1,0 +1,27 @@
+---
+/**
+ * FAQ 컴포넌트 - 접이식(accordion) FAQ 목록
+ * FAQPage 스키마는 페이지에서 SEO.astro로 전달
+ */
+import type { FAQItem } from '../lib/types';
+
+interface Props {
+  faqs: FAQItem[];
+}
+
+const { faqs } = Astro.props;
+---
+
+{faqs.length > 0 && (
+  <div class="faq-list">
+    {faqs.map((faq) => (
+      <details class="faq-item">
+        <summary class="faq-item__question">
+          <span>{faq.question}</span>
+          <span class="faq-item__icon" aria-hidden="true">+</span>
+        </summary>
+        <div class="faq-item__answer">{faq.answer}</div>
+      </details>
+    ))}
+  </div>
+)}

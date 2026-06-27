@@ -1,0 +1,17 @@
+{
+  "name": "sudogwon-massage",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "서울·경기·인천 수도권 출장마사지 방문 가능 지역 안내 사이트",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^4.16.18",
+    "@astrojs/sitemap": "3.2.1"
+  }
+}

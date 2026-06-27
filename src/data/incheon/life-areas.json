@@ -1,0 +1,314 @@
+[
+  {
+    "name": "송도국제도시",
+    "slug": "songdo-international-city",
+    "type": "life-area",
+    "province": "incheon",
+    "city": "인천",
+    "district": "yeonsu-gu",
+    "nearbyStations": ["incheon-national-univ-station", "songdo-moonlight-festival-park-station"],
+    "nearbyAreas": ["guwol-incheon-cityhall", "cheongna-international-city"],
+    "nearbyRegions": ["incheon-yeonsu-gu", "incheon-namdong-gu"],
+    "lifeArea": "송도국제도시",
+    "useCases": ["home", "hotel", "officetel", "business-district", "station-area", "night"],
+    "searchIntent": "송도 출장마사지, 송도국제도시 홈타이, 송도 방문 마사지 예약 전 확인",
+    "contentFocus": "국제도시, 센트럴파크, 인천대입구, 숙소·오피스텔 중심",
+    "indexPriority": 1,
+    "contentStatus": "ready",
+    "canonicalUrl": "/incheon/life/songdo-international-city/",
+    "noindex": false,
+    "lastUpdated": "2026-06-27",
+    "description": "인천 연수구 송도국제도시를 중심으로 한 국제 업무·주거·숙소 생활권",
+    "includes": ["센트럴파크", "인천대입구역", "송도달빛축제공원역", "컨벤시아역", "송도동"],
+    "relatedDistricts": ["incheon-yeonsu-gu"],
+    "relatedStations": ["incheon-national-univ-station", "songdo-moonlight-festival-park-station"],
+    "body": "송도국제도시 생활권은 인천 연수구에 조성된 대한민국 대표 국제도시로, 동북아 허브를 목표로 조성된 업무·주거·교육·관광 복합 신도시입니다. 송도 센트럴파크를 중심으로 국제기업 아시아태평양 본사, 국제학교, 대형 쇼핑몰, 고급 호텔, 대규모 아파트 단지가 밀집해 있어, 외국인 거주자와 해외 출장객, 국내 주거 수요가 공존하는 다문화적 생활권을 형성합니다.\n\n인천대입구역은 송도국제도시의 관문으로 인천 1호선과 연결되며, 센트럴파크와 송도 컨벤시아, 트리플스트리트 상권을 잇는 거점입니다. 송도달빛축제공원역과 컨벤시아역 인근은 고급 오피스텔, 비즈니스 호텔, 원룸 단지가 집중되어 외국인 기업 거주자와 출장객의 방문 수요가 꾸준합니다. 송도동 일대는 체계적인 도시 계획 아래 관리되어 출입 통제와 주차 환경이 잘 정비되어 있으며, 해안가 고급 주거 단지는 가족 단위와 외국인 주거 수요를 흡수합니다.\n\n송도국제도시 생활권에서 출장마사지를 예약할 때는 고급 오피스텔과 호텔의 외부인 출입 정책, 그리고 대규모 단지의 공동현관 출입 방식을 함께 고려해야 합니다. 송도 호텔과 오피스텔은 관리가 엄격해 출입 통제가 있는 경우가 많아, 예약 시 건물명과 출입 방식을 미리 안내하는 것이 원활한 방문에 필수적입니다. 외국인 거주 비율이 높아 안내 언어나 출입 절차가 다를 수 있으므로 사전 협의가 도움이 됩니다. 송도는 인천공항과 KTX 인접성으로 출장객 방문이 잦지만, 심야 시간대에는 추가 이동비가 발생할 수 있습니다. 개인정보 처리 기준과 예약 변경 기준을 함께 점검해 주세요.",
+    "faq": [
+      {
+        "question": "송도 고급 오피스텔에서 방문 가능한가요?",
+        "answer": "가능합니다. 다만 송도 오피스텔은 관리가 엄격해 출입 통제가 있을 수 있습니다. 예약 시 건물명과 출입 방식을 미리 안내해 주시면 원활한 방문이 가능합니다."
+      },
+      {
+        "question": "송도 호텔에서 외국인 출장객도 이용할 수 있나요?",
+        "answer": "가능합니다. 송도는 외국인 거주 비율이 높아 출입 절차나 안내 방식이 다를 수 있습니다. 예약 시 숙소 정보를 알려주시면 출입 가능 여부를 확인해 드립니다."
+      },
+      {
+        "question": "인천공항 근처 송도에서 심야 이용 시 추가비가 있나요?",
+        "answer": "심야 시간대나 인천공항 인근은 추가 이동비가 발생할 수 있습니다. 예약 시 시간대와 위치를 알려주시면 정확한 안내를 받을 수 있습니다."
+      }
+    ]
+  },
+  {
+    "name": "구월·인천시청",
+    "slug": "guwol-incheon-cityhall",
+    "type": "life-area",
+    "province": "incheon",
+    "city": "인천",
+    "district": "namdong-gu",
+    "nearbyStations": ["incheon-cityhall-station", "arts-center-station"],
+    "nearbyAreas": ["bupyeong-station-market", "juan-dohwa", "songdo-international-city"],
+    "nearbyRegions": ["incheon-namdong-gu", "incheon-yeonsu-gu"],
+    "lifeArea": "구월·인천시청",
+    "useCases": ["home", "hotel", "officetel", "business-district", "station-area", "night"],
+    "searchIntent": "구월 출장마사지, 인천시청 홈타이, 구월동 방문 마사지 예약 전 확인",
+    "contentFocus": "인천시청, 예술회관, 인천터미널 중심",
+    "indexPriority": 1,
+    "contentStatus": "ready",
+    "canonicalUrl": "/incheon/life/guwol-incheon-cityhall/",
+    "noindex": false,
+    "lastUpdated": "2026-06-27",
+    "description": "구월동과 인천시청을 중심으로 한 인천 남동구 행정·상업 생활권",
+    "includes": ["인천시청역", "예술회관역", "구월동", "인천터미널", "남동구청"],
+    "relatedDistricts": ["incheon-namdong-gu"],
+    "relatedStations": ["incheon-cityhall-station"],
+    "body": "구월·인천시청 생활권은 인천 남동구 중심부에 위치한 행정·상업 복합 생활권으로, 인천시청과 구월동 상권을 축으로 발달한 인천의 핵심 도심입니다. 인천시청역은 인천 1호선과 2호선이 교차하는 환승 거점으로, 인천 전 지역과 인천공항으로의 접근성이 뛰어나며, 주변 대형 상업 시설과 오피스텔, 원룸 단지가 인천 시내와 주변 도시의 방문객을 흡수합니다.\n\n구월동 일대는 인천 남동구의 대표적인 상업·업무 지구로, 구월 로데오거리와 대형 쇼핑몰, 비즈니스 호텔이 밀집해 있습니다. 예술회관역 인근은 인천문화예술회관과 남동인슈산업단지를 잇는 상업·업무 중심지로, 직장인과 상인들의 방문 수요가 발생합니다. 인천종합터미널 방면은 인천과 지방을 잇는 교통 거점으로 출장객과 여행객의 숙소 이용이 활발합니다.\n\n구월·인천시청 생활권에서 출장마사지를 예약할 때는 인천시청역 환승 인근의 출퇴근 혼잡과 구월동 상권의 주차 환경을 함께 고려해야 합니다. 구월동 오피스텔과 비즈니스 호텔은 관리사무소의 출입 통제가 있는 경우가 많아, 예약 시 건물명과 출입 방식을 미리 안내하는 것이 원활한 방문에 필수적입니다. 인천터미널 인근 숙소는 출장객 수요가 높지만 숙소 정책에 따라 출입이 제한될 수 있습니다. 인천시청 상권은 야간에도 활기를 띠나 심야 시간대에는 추가 이동비가 발생할 수 있으며, 개인정보 처리 기준과 예약 변경 기준을 함께 점검해 주세요.",
+    "faq": [
+      {
+        "question": "구월동 오피스텔에서 방문 가능한가요?",
+        "answer": "가능합니다. 다만 구월동 오피스텔은 관리사무소 출입 통제가 있을 수 있어, 예약 시 건물명과 출입 방식을 미리 안내해 주시면 원활한 방문이 가능합니다."
+      },
+      {
+        "question": "인천시청역 환승 인근에서 시간대는 어떻게 잡나요?",
+        "answer": "인천시청역은 1·2호선 환승역으로 출퇴근 시간이 혼잡합니다. 피크 시간을 피하시거나 예약 시간에 여유를 두시는 것을 권장합니다."
+      },
+      {
+        "question": "인천터미널 인근 숙소에서도 방문 가능한가요?",
+        "answer": "숙소 정책에 따라 다릅니다. 출장객 수요가 높지만 외부인 출입이 제한될 수 있으니, 예약 시 숙소명을 알려주시면 출입 가능 여부를 확인해 드립니다."
+      }
+    ]
+  },
+  {
+    "name": "부평역·부평시장",
+    "slug": "bupyeong-station-market",
+    "type": "life-area",
+    "province": "incheon",
+    "city": "인천",
+    "district": "bupyeong-gu",
+    "nearbyStations": ["bupyeong-station", "bupyeong-market-station"],
+    "nearbyAreas": ["guwol-incheon-cityhall", "juan-dohwa"],
+    "nearbyRegions": ["incheon-bupyeong-gu", "incheon-gyeyang-gu"],
+    "lifeArea": "부평역·부평시장",
+    "useCases": ["home", "officetel", "station-area", "business-district", "night"],
+    "searchIntent": "부평 출장마사지, 부평 홈타이, 부평역 방문 마사지 예약 전 확인",
+    "contentFocus": "부평역, 부평시장, 부평구청 중심",
+    "indexPriority": 1,
+    "contentStatus": "ready",
+    "canonicalUrl": "/incheon/life/bupyeong-station-market/",
+    "noindex": false,
+    "lastUpdated": "2026-06-27",
+    "description": "부평역과 부평시장을 중심으로 한 인천 부평구 대표 상권·역세권 생활권",
+    "includes": ["부평역", "부평시장역", "부평구청", "부평문화로", "갈산동"],
+    "relatedDistricts": ["incheon-bupyeong-gu"],
+    "relatedStations": ["bupyeong-station"],
+    "body": "부평역·부평시장 생활권은 인천 부평구 중심부에 위치한 인천 서부의 대표적인 상권·역세권 생활권으로, 부평역과 부평시장을 축으로 발달한 복합 생활권입니다. 부평역은 1호선과 인천 1호선이 교차하는 인천 최대 환승 거점으로, 서울·부천·인천을 잇는 광역 교통 요충지이며, 인근 부평문화로와 부평역사 상권이 인천 서부와 경기 남부의 방문객을 흡수합니다.\n\n부평시장역 인근은 인천의 대표적인 전통시장과 상업지구로, 부평김치거리와 대형 쇼핑몰, 오피스텔, 원룸 단지가 밀집해 있습니다. 부평구청과 부평문화로 일대는 행정·상업 중심지로 발달했고, 갈산동·부평동 방향은 주거형 오피스텔과 원룸이 분포합니다. 부평은 인천 내에서 가장 인구 밀도가 높고 상업이 활발한 핵심 생활권으로, 직장인과 상인, 주거 인구의 방문 수요가 공존합니다.\n\n부평역·부평시장 생활권에서 출장마사지를 예약할 때는 부평역 환승 인근의 출퇴근 혼잡과 부평문화로 상권의 주차 환경을 함께 고려해야 합니다. 부평 오피스텔과 원룸은 공동현관 출입 통제가 있는 경우가 많아, 예약 시 건물명과 출입 방식을 미리 안내하는 것이 원활한 방문에 필수적입니다. 부평문화로와 부평시장 주변은 야간 상권이 활발해 야간 수요도 있지만, 심야 시간대에는 추가 이동비가 발생할 수 있습니다. 개인정보 처리 기준과 예약 변경 기준을 함께 점검해 주세요.",
+    "faq": [
+      {
+        "question": "부평역 인근 오피스텔에서 방문 가능한가요?",
+        "answer": "가능합니다. 다만 부평 오피스텔은 관리사무소 출입 통제가 있을 수 있어, 예약 시 건물명과 출입 방식을 미리 안내해 주시면 원활한 방문이 가능합니다."
+      },
+      {
+        "question": "부평문화로 상권에서 야간 방문도 가능한가요?",
+        "answer": "부평은 야간 상권이 활발해 야간 수요도 있습니다. 다만 심야 시간대에는 추가 이동비가 발생할 수 있으며, 출입 통제가 강화될 수 있으니 예약 시 확인해 주세요."
+      },
+      {
+        "question": "부평시장 주변 주택가에서 주차는 어떻게 하나요?",
+        "answer": "부평시장 주변은 골목이 좁고 주차 공간이 제한적일 수 있습니다. 예약 시 주변 주차 환경을 알려주시면 방문 가능 여부와 시간을 안내해 드립니다."
+      }
+    ]
+  },
+  {
+    "name": "주안·도화",
+    "slug": "juan-dohwa",
+    "type": "life-area",
+    "province": "incheon",
+    "city": "인천",
+    "district": "michuhol-gu",
+    "nearbyStations": ["juan-station", "dohwa-station"],
+    "nearbyAreas": ["yonghyeon-hagik", "guwol-incheon-cityhall"],
+    "nearbyRegions": ["incheon-michuhol-gu", "incheon-namdong-gu"],
+    "lifeArea": "주안·도화",
+    "useCases": ["home", "officetel", "station-area"],
+    "searchIntent": "주안 출장마사지, 도화 홈타이, 주안역 방문 마사지 예약 전 확인",
+    "contentFocus": "주안역, 도화, 미추홀구 중심",
+    "indexPriority": 1,
+    "contentStatus": "ready",
+    "canonicalUrl": "/incheon/life/juan-dohwa/",
+    "noindex": false,
+    "lastUpdated": "2026-06-27",
+    "description": "주안역과 도화동을 중심으로 한 인천 미추홀구 역세권 생활권",
+    "includes": ["주안역", "도화역", "주안동", "도화동", "미추홀구청"],
+    "relatedDistricts": ["incheon-michuhol-gu"],
+    "relatedStations": ["juan-station"],
+    "body": "주안·도화 생활권은 인천 미추홀구 중심부에 위치한 역세권·주거 생활권으로, 주안역과 도화동을 축으로 발달한 복합 생활권입니다. 주안역은 1호선과 인천 1호선이 교차하는 인천 남부의 핵심 환승 거점으로, 서울·부천과 인천 도심, 인천공항을 잇는 광역 교통 요충지이며, 인근 주안역사와 상업 시설이 미추홀구와 남동구 방문객을 흡수합니다.\n\n주안동 일대는 미추홀구의 대표적인 상업·주거 복합 지구로, 대형 오피스텔, 원룸 단지, 상업 시설이 밀집해 있습니다. 주안8동과 주안7동 방향은 주거형 오피스텔과 원룸이 분포하며, 도화동 인근은 미추홀구청과 인접한 행정·상업 중심지로 발달했습니다. 주안은 인천 남부의 핵심 생활권으로 부평, 구월, 미추홀구 원도심을 잇는 교통 요충지 역할을 합니다.\n\n주안·도화 생활권에서 출장마사지를 예약할 때는 주안역 환승 인근의 출퇴근 혼잡과 주안·도화 오피스텔의 출입 통제를 함께 고려해야 합니다. 주안역 인근 오피스텔과 원룸은 공동현관 출입 통제가 있는 경우가 많아, 예약 시 건물명과 출입 방식을 미리 안내하는 것이 원활한 방문에 필수적입니다. 주안은 1호선과 인천 1호선 환승역으로 출퇴근 시간이 매우 혼잡하므로 시간대 조정을 권장하며, 심야 시간대에는 추가 이동비가 발생할 수 있습니다. 개인정보 처리 기준과 예약 변경 기준을 함께 점검해 주세요.",
+    "faq": [
+      {
+        "question": "주안역 인근 오피스텔에서 방문 가능한가요?",
+        "answer": "가능합니다. 다만 주안 오피스텔은 관리사무소 출입 통제가 있을 수 있어, 예약 시 건물명과 출입 방식을 미리 안내해 주시면 원활한 방문이 가능합니다."
+      },
+      {
+        "question": "주안역 환승 인근에서 시간대는 어떻게 잡나요?",
+        "answer": "주안역은 1호선·인천 1호선 환승역으로 출퇴근 시간이 매우 혼잡합니다. 피크 시간을 피하시거나 예약 시간에 여유를 두시는 것을 권장합니다."
+      },
+      {
+        "question": "도화동 미추홀구청 인근에서도 방문 가능한가요?",
+        "answer": "가능합니다. 도화동 인근은 행정·상업 중심지로 오피스텔과 원룸이 분포합니다. 정확한 주소를 알려주시면 확인 후 안내해 드립니다."
+      }
+    ]
+  },
+  {
+    "name": "청라국제도시",
+    "slug": "cheongna-international-city",
+    "type": "life-area",
+    "province": "incheon",
+    "city": "인천",
+    "district": "seo-gu-incheon",
+    "nearbyStations": ["cheongna-international-city-station"],
+    "nearbyAreas": ["geomdan-newtown", "geomam-ara"],
+    "nearbyRegions": ["incheon-seo-gu", "incheon-gyeyang-gu"],
+    "lifeArea": "청라국제도시",
+    "useCases": ["home", "officetel", "station-area"],
+    "searchIntent": "청라 출장마사지, 청라국제도시 홈타이, 청라 방문 마사지 예약 전 확인",
+    "contentFocus": "청라국제도시, 루원, 가정 인접권 중심",
+    "indexPriority": 1,
+    "contentStatus": "ready",
+    "canonicalUrl": "/incheon/life/cheongna-international-city/",
+    "noindex": false,
+    "lastUpdated": "2026-06-27",
+    "description": "인천 서구 청라국제도시를 중심으로 한 호수공원·주거 생활권",
+    "includes": ["청라호수공원", "청라국제도시역", "청라동", "루원시티", "가정동"],
+    "relatedDistricts": ["incheon-seo-gu"],
+    "relatedStations": ["cheongna-international-city-station"],
+    "body": "청라국제도시 생활권은 인천 서구 청라 일대에 조성된 국제도시로, 청라호수공원을 중심으로 한 대규모 주거·상업·업무 복합 신도시입니다. 청라는 인천공항고속도로와 제3경인고속화도로로 인천공항과 서울 접근성이 뛰어나며, 체계적인 도시 계획 아래 고급 주거 단지와 국제학교, 대형 쇼핑몰, 비즈니스 시설이 조성되어 있습니다. 외국인 거주자와 해외 출장객, 가족 단위 주거 수요가 공존하는 다문화적 생활권을 형성합니다.\n\n청라국제도시역은 인천 2호선으로 연결되며, 청라엠블로스코리아와 루원시티 인근 상업지구를 잇는 거점입니다. 청라호수공원 방향은 고급 주거 단지와 상업 시설이 혼재해 가족 단위 주거 수요가 높고, 가정동·루원동 일대는 인천 서구의 핵심 주거지로 발달했습니다. 청라는 검암역 환승과 인천공항 인접성으로 출장객과 여행객의 숙소 이용이 활발합니다.\n\n청라국제도시 생활권에서 출장마사지를 예약할 때는 고급 주거 단지의 공동현관 출입 방식과 청라 호텔·오피스텔의 외부인 출입 정책을 함께 고려해야 합니다. 청라 아파트 단지는 관리가 체계적이어서 방문객 등록 절차가 필요할 수 있으며, 예약 시 단지명과 출입 방식을 미리 안내하는 것이 원활한 방문에 필수적입니다. 외국인 거주 비율이 높아 안내 언어나 출입 절차가 다를 수 있으므로 사전 협의가 도움이 됩니다. 청라는 인천공항 인접성으로 출장객 방문이 잦지만, 심야 시간대에는 추가 이동비가 발생할 수 있습니다. 개인정보 처리 기준과 예약 변경 기준을 함께 점검해 주세요.",
+    "faq": [
+      {
+        "question": "청라 고급 주택가 아파트에서 방문객 등록은 어떻게 하나요?",
+        "answer": "청라 대단지는 관리사무소 방문 등록이나 공동 출입구 비밀번호가 필요할 수 있습니다. 예약 시 단지명과 출입 방식를 알려주시면 원활한 방문이 가능합니다."
+      },
+      {
+        "question": "청라 호텔에서 외부 매니저 출입이 가능한가요?",
+        "answer": "숙소 정책에 따라 다릅니다. 외국인 거주 비율이 높아 출입 절차가 다를 수 있습니다. 예약 시 숙소명을 알려주시면 출입 가능 여부를 확인해 드립니다."
+      },
+      {
+        "question": "인천공항 근처 청라에서 심야 이용 시 추가비가 있나요?",
+        "answer": "심야 시간대나 인천공항 인근은 추가 이동비가 발생할 수 있습니다. 예약 시 시간대와 위치를 알려주시면 정확한 안내를 받을 수 있습니다."
+      }
+    ]
+  },
+  {
+    "name": "검단신도시",
+    "slug": "geomdan-newtown",
+    "type": "life-area",
+    "province": "incheon",
+    "city": "인천",
+    "district": "seo-gu-incheon",
+    "nearbyStations": ["geomdan-sageori-station"],
+    "nearbyAreas": ["cheongna-international-city", "geomam-ara"],
+    "nearbyRegions": ["incheon-seo-gu"],
+    "lifeArea": "검단신도시",
+    "useCases": ["home", "officetel", "station-area"],
+    "searchIntent": "검단 출장마사지, 검단신도시 홈타이, 검단 방문 마사지 예약 전 확인",
+    "contentFocus": "검단신도시, 검단사거리, 완정, 마전 중심",
+    "indexPriority": 1,
+    "contentStatus": "ready",
+    "canonicalUrl": "/incheon/life/geomdan-newtown/",
+    "noindex": false,
+    "lastUpdated": "2026-06-27",
+    "description": "인천 서구 검단신도시를 중심으로 한 신도시 주거 생활권",
+    "includes": ["검단신도시", "검단사거리역", "완정동", "마전동", "당하동"],
+    "relatedDistricts": ["incheon-seo-gu"],
+    "relatedStations": ["geomdan-sageori-station"],
+    "body": "검단신도시 생활권은 인천 서구 검단 일대에 조성된 대규모 신도시로, 검단사거리를 중심으로 한 주거·상업 복합 생활권입니다. 검단신도시는 인천 서구 북부에 위치하며 김포·부천과 인접한 입지로, 체계적인 도시 계획 아래 대규모 아파트 단지와 상업 시설, 오피스텔이 조성되어 가족 단위 주거 수요가 높은 지역입니다.\n\n검단사거리역은 인천 2호선으로 인천 도심과 연결되며, 검단신도시 중심 상업지구를 잇는 거점입니다. 완정동·마전동·당하동 일대는 검단신도시의 핵심 주거지로, 대형 아파트 단지와 원룸, 오피스텔이 밀집해 있습니다. 검단은 청라국제도시와 인접해 생활권이 확장되며, 김포골드라인과의 연계로 서울·김포 접근성도 좋습니다.\n\n검단신도시 생활권에서 출장마사지를 예약할 때는 대규모 단지의 공동현관 출입 방식과 주차 환경을 미리 확인하는 것이 중요합니다. 검단 아파트 단지는 관리가 체계적이어서 방문객 등록 절차가 필요할 수 있으며, 예약 시 단지명·동·호수와 출입 방식을 미리 안내하는 것이 원활한 방문에 필수적입니다. 검단은 인천 외곽에 위치해 차량 이동이 주를 이루며, 거리에 따라 추가 이동비가 발생할 수 있습니다. 심야 시간대에도 추가 이동비가 발생할 수 있으니 예약 시 확인하시고, 개인정보 처리 기준과 예약 변경 기준을 함께 점검해 주세요.",
+    "faq": [
+      {
+        "question": "검단 아파트 단지에서 방문객 등록은 어떻게 하나요?",
+        "answer": "검단 대단지는 관리사무소 방문 등록이나 차량 번호 사전 등록이 필요할 수 있습니다. 예약 시 단지명·동·호수를 알려주시면 원활한 방문이 가능합니다."
+      },
+      {
+        "question": "검단은 외곽이라 추가 이동비가 발생하나요?",
+        "answer": "검단은 인천 외곽 위치와 거리에 따라 추가 이동비가 발생할 수 있습니다. 예약 시 정확한 주소를 안내해 주시면 방문 가능 여부와 비용을 안내해 드립니다."
+      },
+      {
+        "question": "검단사거리역 인근 오피스텔에서도 방문 가능한가요?",
+        "answer": "가능합니다. 검단신도시 중심 오피스텔은 출입 통제가 있을 수 있으니, 예약 시 건물명과 출입 방식을 미리 안내해 주세요."
+      }
+    ]
+  },
+  {
+    "name": "영종·운서",
+    "slug": "yeongjong-unseo",
+    "type": "life-area",
+    "province": "incheon",
+    "city": "인천",
+    "district": "jung-gu-incheon",
+    "nearbyStations": ["unseo-station", "incheon-airport-station"],
+    "nearbyAreas": ["incheon-airport"],
+    "nearbyRegions": ["incheon-jung-gu"],
+    "lifeArea": "영종·운서",
+    "useCases": ["hotel", "officetel", "outer-area", "night"],
+    "searchIntent": "영종 출장마사지, 운서 홈타이, 영종도 방문 마사지 예약 전 확인",
+    "contentFocus": "운서, 영종, 인천공항 인접 생활권 중심",
+    "indexPriority": 1,
+    "contentStatus": "ready",
+    "canonicalUrl": "/incheon/life/yeongjong-unseo/",
+    "noindex": false,
+    "lastUpdated": "2026-06-27",
+    "description": "영종도와 운서동, 인천공항 인접 숙소 생활권",
+    "includes": ["운서동", "영종동", "인천국제공항", "영종하늘도시", "을왕동"],
+    "relatedDistricts": ["incheon-jung-gu"],
+    "relatedStations": ["unseo-station"],
+    "body": "영종·운서 생활권은 인천 중구 영종도 일대와 운서동을 중심으로 한 공항 인접 숙소·주거 생활권으로, 인천국제공항과 영종대교, 운서역을 축으로 발달한 복합 생활권입니다. 운서동 일대는 인천공항을 이용하는 출장객과 여행객을 위한 호텔·파크타운·오피스텔이 밀집해 있어, 심야 항공과 새벽 출국을 앞둔 방문객의 숙소 이용이 활발합니다.\n\n운서역은 공항철도로 인천공항과 김포, 서울역과 연결되며, 운서동 상업지구와 인접 숙소를 잇는 거점입니다. 영종하늘도시와 영종동·을왕동 일대는 공항 인근 주거지와 해안 관광지로 발달했고, 영종도 해변의 펜션과 리조트, 호텔에서의 방문 수요가 발생합니다. 영종·운서는 인천공항 접근성이 뛰어나 전국 출장객과 외국인 방문객의 숙소 이용이 집중되는 지역입니다.\n\n영종·운서 생활권에서 출장마사지를 예약할 때는 공항 인근 숙소의 외부인 출입 정책과 도서·해안 접근 특성을 함께 고려해야 합니다. 운서동 호텔과 영종도 펜션·리조트는 숙소 정책에 따라 외부 방문을 제한하는 경우가 많아, 예약 시 숙소명과 출입 가능 여부를 미리 확인하는 것이 필수적입니다. 영종·운서는 공항 인접성으로 심야·새벽 수요가 높지만, 심야 시간대와 도서 진입 특성상 추가 이동비가 발생할 수 있으며 사전 예약이 권장됩니다. 개인정보 처리 기준과 예약 변경 기준을 함께 점검해 주세요.",
+    "faq": [
+      {
+        "question": "운서동 호텔에서 외부 매니저 출입이 가능한가요?",
+        "answer": "숙소 정책에 따라 다릅니다. 공항 인근 호텔은 외부인 출입을 제한하는 경우가 많습니다. 예약 시 숙소명을 알려주시면 출입 가능 여부를 확인해 드립니다."
+      },
+      {
+        "question": "영종도 펜션·리조트에서도 방문 가능한가요?",
+        "answer": "가능할 수 있으나 숙소 정책과 해안 접근 특성을 고려해야 합니다. 예약 시 숙소명과 위치를 알려주시면 출입 가능 여부와 방문 시간을 확인해 드립니다."
+      },
+      {
+        "question": "인천공항 근처 심야 이용 시 추가비가 있나요?",
+        "answer": "심야 시간대와 공항·도서 인접 특성상 추가 이동비가 발생할 수 있습니다. 새벽 항공 등 심야 수요가 높으나 사전 예약을 권장합니다."
+      }
+    ]
+  },
+  {
+    "name": "인천공항",
+    "slug": "incheon-airport",
+    "type": "life-area",
+    "province": "incheon",
+    "city": "인천",
+    "district": "jung-gu-incheon",
+    "nearbyStations": ["incheon-airport-station"],
+    "nearbyAreas": ["yeongjong-unseo"],
+    "nearbyRegions": ["incheon-jung-gu"],
+    "lifeArea": "인천공항",
+    "useCases": ["hotel", "officetel", "outer-area", "night"],
+    "searchIntent": "인천공항 출장마사지, 공항 홈타이, 공항 근처 방문 마사지 예약 전 확인",
+    "contentFocus": "인천공항 인접 생활권 중심",
+    "indexPriority": 1,
+    "contentStatus": "ready",
+    "canonicalUrl": "/incheon/life/incheon-airport/",
+    "noindex": false,
+    "lastUpdated": "2026-06-27",
+    "description": "인천국제공항 인근 숙소를 중심으로 한 출장객·여행객 생활권",
+    "includes": ["인천국제공항", "공항내 숙소", "운서동", "공항철도", "제1터미널"],
+    "relatedDistricts": ["incheon-jung-gu"],
+    "relatedStations": ["incheon-airport-station"],
+    "body": "인천공항 생활권은 인천국제공항 제1·2터미널과 인접 숙소를 중심으로 한 출장객·여행객 특화 생활권으로, 공항철도와 영종대교를 통해 전국과 연결되는 교통 요충지입니다. 인천공항은 대한민국 최대 공항으로 하루 수십만 명의 이용객이 오가며, 이 중 상당수가 환승, 새벽 출국, 심야 도착으로 인해 공항 인근 숙소에 머무릅니다. 운서동과 영종도 일대의 호텔·파크타운·오피스텔은 이러한 공항 이용객의 숙소 수요를 흡수합니다.\n\n인천공항역은 공항철도의 종착역으로 서울역·김포·영종도를 잇고, 공항 내부와 인접 운서동 숙소를 연결합니다. 공항 내 워커힐 호텔과 운서동의 다수 호텔·비즈니스 숙소는 국내외 출장객과 환승 여행객의 숙박 거점으로 기능합니다. 인천공항 생활권은 새벽 항공과 심야 도착 특성상 24시간 숙소 운영이 활발하지만, 외부 매니저의 출입은 숙소 정책과 공항 보안 구역 특성에 따라 제한될 수 있습니다.\n\n인천공항 생활권에서 출장마사지를 예약할 때는 공항 인근 숙소의 외부인 출입 정책을 가장 먼저 확인하는 것이 필수적입니다. 공항 내 호텔과 운서동 숙소는 보안과 관리상 외부 방문을 제한하는 경우가 많아, 예약 시 숙소명과 출입 가능 여부를 미리 확인해야 합니다. 인천공항은 심야·새벽 수요가 높지만, 심야 시간대와 공항 인접 특성상 추가 이동비가 발생할 수 있으며 사전 예약이 권장됩니다. 개인정보 처리 기준과 예약 변경 기준을 함께 점검해 주세요.",
+    "faq": [
+      {
+        "question": "인천공항 내 호텔에서 외부 매니저 출입이 가능한가요?",
+        "answer": "공항 내 호텔은 보안상 외부인 출입이 제한될 수 있습니다. 예약 시 숙소명을 알려주시면 출입 가능 여부를 확인해 드립니다."
+      },
+      {
+        "question": "공항 근처 운서동 숙소에서도 방문 가능한가요?",
+        "answer": "가능할 수 있으나 숙소 정책에 따라 다릅니다. 심야·새벽 수요가 높으나 출입 통제가 있을 수 있으니, 예약 시 숙소명을 알려주시면 출입 가능 여부를 확인해 드립니다."
+      },
+      {
+        "question": "심야 항공 이용객도 방문 예약이 가능한가요?",
+        "answer": "가능할 수 있으나 심야 시간대 추가 이동비가 발생할 수 있으며 사전 예약이 권장됩니다. 예약 시 시간대와 숙소명을 알려주시면 정확한 안내를 받을 수 있습니다."
+      }
+    ]
+  }
+]

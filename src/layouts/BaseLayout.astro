@@ -1,0 +1,45 @@
+---
+/**
+ * 기본 레이아웃 - 모든 페이지의 공통 뼈대
+ *
+ * - <head> 메타데이터는 SEO 컴포넌트로 위임
+ * - Header / Footer 공통 포함
+ * - 글로벌 스타일 로드
+ */
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import SEO from '../components/SEO.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  noindex?: boolean;
+  schemas?: object[];
+}
+
+const { title, description, path, noindex = false, schemas = [] } = Astro.props;
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <SEO
+      title={title}
+      description={description}
+      path={path}
+      noindex={noindex}
+      schemas={schemas}
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

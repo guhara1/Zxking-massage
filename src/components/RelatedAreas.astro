@@ -1,0 +1,58 @@
+---
+/**
+ * 관련 지역 보기 컴포넌트
+ * 생활권 상세 페이지 하단에서 인근 생활권으로 내부 링크를 걸어
+ * 크롤러가 수도권 전체를 탐색할 수 있도록 돕는다.
+ *
+ * nearbyAreas 슬러그를 기준으로 다른 생활권을 찾아 연결한다.
+ * (참조 무결성: 존재하지 않는 슬러그는 자동으로 건너뛴다)
+ */
+import type { LifeArea, Province } from '../lib/types';
+import { findLifeAreaBySlug, PROVINCE_LABEL } from '../lib/data';
+
+interface Props {
+  current: LifeArea;             // 현재 생활권
+  province: Province;            // 같은 광역단체 내 우선 노출
+  maxItems?: number;             // 최대 노출 개수
+}
+
+const { current, province, maxItems = 6 } = Astro.props;
+
+// 1) nearbyAreas 슬러그 기반 관련 생활권 찾기
+const fromNearby = (current.nearbyAreas ?? [])
+  .map((slug) => findLifeAreaBySlug(slug))
+  .filter((a): a is LifeArea => Boolean(a))
+  .filter((a) => a.slug !== current.slug);
+
+// 2) 같은 광역단체의 다른 생활권 (관련이 부족할 때 보조)
+const sameProvince = [] as LifeArea[];
+
+// nearbyAreas 로 충분하면 같은 광역단체는 보조로만 사용
+// (필요시 getLifeAreasByProvince import 해서 채울 수 있음)
+
+const related = [...fromNearby].slice(0, maxItems);
+const hasRelated = related.length > 0;
+---
+
+{hasRelated && (
+  <section class="section-sm" style="border-top: 1px solid var(--color-border);">
+    <h2 class="section-title" style="font-size: 1.5rem;">관련 지역 보기</h2>
+    <p style="color: var(--color-text-soft); font-size: 0.95rem; margin-bottom: 20px;">
+      인접한 수도권 생활권의 방문 가능 지역도 함께 확인해 보세요.
+    </p>
+    <div class="card-grid">
+      {related.map((area) => {
+        const url = `/${area.province}/life/${area.slug}/`;
+        return (
+          <a href={url} class="card" style="padding: 22px;">
+            <div class="tag tag-primary" style="margin-bottom: 10px;">
+              {PROVINCE_LABEL[area.province]}
+            </div>
+            <h3 class="card__title" style="font-size: 1.1rem;">{area.name}</h3>
+            <p class="card__desc" style="font-size: 0.88rem;">{area.description}</p>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+)}

@@ -1,0 +1,88 @@
+---
+/**
+ * 인천 허브 페이지 (/incheon/)
+ * 스펙 7절 인천 구조 / 11절 지역 허브 템플릿
+ * 현재 2군·8구 기준 + 2026 개편 대응 데이터 준비 안내
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import HubHero from '../../components/HubHero.astro';
+import LifeAreaCard from '../../components/LifeAreaCard.astro';
+import Checklist from '../../components/Checklist.astro';
+import { getReadyLifeAreas } from '../../lib/data';
+import { webPageSchema, breadcrumbSchema } from '../../lib/schema';
+
+const path = '/incheon/';
+const title = '인천 출장마사지｜송도·부평·구월·청라·검단·영종 방문 가능 지역 안내';
+const description =
+  '인천 출장마사지·홈타이 송도, 부평, 구월, 주안, 청라, 검단, 영종, 인천공항 등 8구·2군 핵심 생활권과 공항·도서 지역 방문 가능 여부를 안내합니다.';
+
+const incheonAreas = getReadyLifeAreas('incheon');
+
+const breadcrumbs = [
+  { name: '홈', url: '/' },
+  { name: '인천', url: '/incheon/' },
+];
+
+const schemas = [
+  breadcrumbSchema(breadcrumbs),
+  webPageSchema(path, title, description, breadcrumbs),
+];
+---
+
+<BaseLayout title={title} description={description} path={path} schemas={schemas}>
+  <div class="container">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <HubHero
+      province="incheon"
+      h1="인천 출장마사지 · 방문 가능 지역 안내"
+      description="인천은 8구·2군 생활권과 공항·도서 지역 특성을 함께 안내합니다. 송도·구월·부평 등 도심 생활권부터 청라·검단 신도시, 영종·인천공항 공항 인접권, 강화·옹진 도서 지역의 방문 가능 여부와 추가 이동비까지 확인하세요."
+      areaCount={incheonAreas.length}
+    />
+
+    {/* 인천 대표 지역 특성 */}
+    <section class="section" style="border-top: 1px solid var(--color-border);">
+      <h2 class="section-title">인천 지역별 방문 특성</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3 class="card__title">송도</h3>
+          <p class="card__desc">국제도시, 센트럴파크, 인천대입구. 숙소·오피스텔과 외국인 거주 비율 높음.</p>
+        </div>
+        <div class="card">
+          <h3 class="card__title">부평·구월</h3>
+          <p class="card__desc">부평역, 부평시장, 인천시청. 인천 최대 상권·역세권 복합 생활권.</p>
+        </div>
+        <div class="card">
+          <h3 class="card__title">청라·검단</h3>
+          <p class="card__desc">청라국제도시, 검단신도시. 인천공항 인접 신도시 주거 생활권.</p>
+        </div>
+        <div class="card">
+          <h3 class="card__title">영종·인천공항</h3>
+          <p class="card__desc">운서, 영종, 인천공항. 출장객·여행객 숙소 수요, 심야·새벽 이용 활발.</p>
+        </div>
+        <div class="card">
+          <h3 class="card__title">강화·옹진</h3>
+          <p class="card__desc">도서 지역 특성상 방문 가능 여부와 사전 예약, 추가 이동비 확인 필수.</p>
+        </div>
+      </div>
+    </section>
+
+    {/* 핵심 생활권 */}
+    <section class="section" style="border-top: 1px solid var(--color-border);">
+      <h2 class="section-title">인천 핵심 생활권</h2>
+      <p class="section-subtitle">
+        구·군이 아닌 실제 생활권 단위로 방문 특성과 공항·도서 접근성을 확인하세요.
+      </p>
+      <div class="card-grid">
+        {incheonAreas.map((area) => <LifeAreaCard area={area} />)}
+      </div>
+    </section>
+
+    {/* 예약 전 체크리스트 */}
+    <section class="section" style="border-top: 1px solid var(--color-border);">
+      <Checklist />
+    </section>
+
+  </div>
+</BaseLayout>

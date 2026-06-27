@@ -1,0 +1,32 @@
+---
+/**
+ * 지역 허브 히어로 섹션 (서울/경기/인천 공통)
+ */
+import type { Province } from '../lib/types';
+import { PROVINCE_LABEL } from '../lib/data';
+
+interface Props {
+  province: Province;
+  h1: string;
+  description: string;
+  areaCount: number;
+}
+
+const { province, h1, description, areaCount } = Astro.props;
+const label = PROVINCE_LABEL[province];
+---
+
+<section style="padding: 48px 0 40px;">
+  <div class="tag tag-primary" style="margin-bottom: 16px;">
+    {label} · 수도권 출장마사지
+  </div>
+  <h1 style="font-size: 2.1rem; font-weight: 800; line-height: 1.35; letter-spacing: -0.02em; margin-bottom: 16px;">
+    {h1}
+  </h1>
+  <p style="font-size: 1.05rem; color: var(--color-text-soft); max-width: 680px; line-height: 1.7;">
+    {description}
+  </p>
+  <p style="font-size: 0.9rem; color: var(--color-text-muted); margin-top: 16px;">
+    현재 안내 중인 핵심 생활권: <strong style="color: var(--color-primary);">{areaCount}개</strong>
+  </p>
+</section>

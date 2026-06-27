@@ -1,0 +1,61 @@
+---
+/**
+ * SEO 컴포넌트 - meta 태그, canonical, Open Graph, JSON-LD 스키마 처리
+ *
+ * 스펙 2절 SEO 설정 준수:
+ *  - SEO Title, Meta Description
+ *  - canonical 자동 생성
+ *  - noindex 플래그 처리 (draft/noindex 항목)
+ *  - Open Graph / Twitter Card
+ *  - Focus Keyword 반영
+ */
+import { siteConfig } from '../data/site';
+import { absUrl } from '../lib/schema';
+
+interface Props {
+  title: string;           // 페이지 제목 (이미 SEO 최적화된 문자열)
+  description: string;     // 메타 설명
+  path: string;            // 정규 경로 (예: /seoul/life/gangnam-yeoksam/)
+  noindex?: boolean;       // 색인 제외 여부
+  schemas?: object[];      // JSON-LD 스키마 배열
+}
+
+const { title, description, path, noindex = false, schemas = [] } = Astro.props;
+
+const canonical = absUrl(path);
+const ogImage = absUrl('/og-image.png'); // TODO: 실제 OG 이미지 추가
+const keywords = [siteConfig.focusKeyword, ...siteConfig.subKeywords].join(', ');
+---
+
+
+<!-- Primary Meta -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+{noindex && <meta name="robots" content="noindex, nofollow" />}
+{!noindex && <meta name="robots" content="index, follow" />}
+
+<!-- 키워드 (보조 키워드 반영) -->
+<meta name="keywords" content={keywords} />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content={siteConfig.name} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:locale" content="ko_KR" />
+<meta property="og:image" content={ogImage} />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
+
+<!-- JSON-LD 구조화 데이터 -->
+{schemas.map((schema) => (
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+))}

@@ -1,0 +1,64 @@
+---
+/**
+ * 수도권 생활권 통합 인덱스 (/life/)
+ * 스펙 3절 최상위 URL /life/
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import LifeAreaCard from '../../components/LifeAreaCard.astro';
+import { getReadyLifeAreas, PROVINCE_LABEL } from '../../lib/data';
+import { webPageSchema, breadcrumbSchema } from '../../lib/schema';
+
+const path = '/life/';
+const title = '수도권 출장마사지 생활권별 안내｜서울·경기·인천 핵심 생활권';
+const description =
+  '서울·경기·인천 수도권 출장마사지 핵심 생활권별 방문 가능 지역을 한눈에 확인하세요. 행정구역이 아닌 실제 생활권 기준으로 방문 환경을 안내합니다.';
+
+const seoulAreas = getReadyLifeAreas('seoul');
+const gyeonggiAreas = getReadyLifeAreas('gyeonggi');
+const incheonAreas = getReadyLifeAreas('incheon');
+
+const breadcrumbs = [
+  { name: '홈', url: '/' },
+  { name: '수도권 생활권', url: '/life/' },
+];
+
+const schemas = [
+  breadcrumbSchema(breadcrumbs),
+  webPageSchema(path, title, description, breadcrumbs),
+];
+---
+
+<BaseLayout title={title} description={description} path={path} schemas={schemas}>
+  <div class="container">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <section style="padding: 24px 0 32px;">
+      <h1 style="font-size: 2rem; font-weight: 800; line-height: 1.35; margin-bottom: 14px;">
+        수도권 주요 생활권별 방문 가능 지역
+      </h1>
+      <p style="color: var(--color-text-soft); font-size: 1.05rem; max-width: 680px;">
+        수도권은 행정구역만으로 예약 기준을 판단하기 어렵습니다. 실제 생활권 단위로
+        방문 환경과 출입 특성을 확인하세요.
+      </p>
+    </section>
+
+    <section class="section-sm" style="border-top: 1px solid var(--color-border);">
+      <h2 class="section-title">{PROVINCE_LABEL.seoul} 생활권</h2>
+      <div class="card-grid" style="margin-bottom: 48px;">
+        {seoulAreas.map((area) => <LifeAreaCard area={area} />)}
+      </div>
+
+      <h2 class="section-title">{PROVINCE_LABEL.gyeonggi} 생활권</h2>
+      <div class="card-grid" style="margin-bottom: 48px;">
+        {gyeonggiAreas.map((area) => <LifeAreaCard area={area} />)}
+      </div>
+
+      <h2 class="section-title">{PROVINCE_LABEL.incheon} 생활권</h2>
+      <div class="card-grid">
+        {incheonAreas.map((area) => <LifeAreaCard area={area} />)}
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

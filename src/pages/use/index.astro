@@ -1,0 +1,55 @@
+---
+/**
+ * 이용 장소별 안내 인덱스 (/use/)
+ * 스펙 9절
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getAllUseCases } from '../../lib/data';
+import { webPageSchema, breadcrumbSchema } from '../../lib/schema';
+
+const path = '/use/';
+const title = '출장마사지 이용 장소별 안내｜자택·호텔·오피스텔·역세권·야간·외곽';
+const description =
+  '자택, 호텔·숙소, 오피스텔, 업무지구, 역세권, 야간 예약, 외곽 지역별 출장마사지 이용 확인사항을 안내합니다. 장소별 출입 방식과 추가 이동비 기준을 확인하세요.';
+
+const useCases = getAllUseCases();
+
+const breadcrumbs = [
+  { name: '홈', url: '/' },
+  { name: '이용 장소별 안내', url: '/use/' },
+];
+
+const schemas = [
+  breadcrumbSchema(breadcrumbs),
+  webPageSchema(path, title, description, breadcrumbs),
+];
+---
+
+<BaseLayout title={title} description={description} path={path} schemas={schemas}>
+  <div class="container container-narrow">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <section style="padding: 24px 0 32px;">
+      <h1 style="font-size: 2rem; font-weight: 800; line-height: 1.35; margin-bottom: 14px;">
+        이용 장소별 안내
+      </h1>
+      <p style="color: var(--color-text-soft); font-size: 1.05rem;">
+        이용하시는 장소에 따라 확인해야 할 사항이 다릅니다. 해당 장소의 출입 방식과 주의사항을 미리 확인하세요.
+      </p>
+    </section>
+
+    <section class="section-sm">
+      <div class="card-grid">
+        {useCases.map((uc) => (
+          <a href={`/use/${uc.slug}/`} class="card">
+            <h3 class="card__title">{uc.label}</h3>
+            <p class="card__desc">{uc.summary}</p>
+            <span class="card__link">확인하기 →</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

@@ -1,0 +1,94 @@
+---
+/**
+ * 서울 허브 페이지 (/seoul/)
+ * 스펙 5절 서울 구조 / 11절 지역 허브 템플릿
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import HubHero from '../../components/HubHero.astro';
+import LifeAreaCard from '../../components/LifeAreaCard.astro';
+import Checklist from '../../components/Checklist.astro';
+import { getReadyLifeAreas } from '../../lib/data';
+import {
+  webPageSchema,
+  breadcrumbSchema,
+} from '../../lib/schema';
+
+const path = '/seoul/';
+const title = '서울 출장마사지｜강남·잠실·홍대·여의도 등 25개구 방문 가능 지역 안내';
+const description =
+  '서울 출장마사지·홈타이 강남, 잠실, 홍대, 여의도, 성수, 용산 등 25개 행정구 핵심 생활권별 방문 가능 지역과 예약 전 확인사항을 안내합니다.';
+
+const seoulAreas = getReadyLifeAreas('seoul');
+
+const breadcrumbs = [
+  { name: '홈', url: '/' },
+  { name: '서울', url: '/seoul/' },
+];
+
+const schemas = [
+  breadcrumbSchema(breadcrumbs),
+  webPageSchema(path, title, description, breadcrumbs),
+];
+---
+
+<BaseLayout title={title} description={description} path={path} schemas={schemas}>
+  <div class="container">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <HubHero
+      province="seoul"
+      h1="서울 출장마사지 · 방문 가능 지역 안내"
+      description="서울은 25개 행정구와 핵심 역세권, 생활권을 기준으로 방문 환경을 안내합니다. 강남·잠실·홍대·여의도 등 업무지구와 상권 중심 지역부터 주거 생활권까지, 예약 전 확인사항과 함께 확인하세요."
+      areaCount={seoulAreas.length}
+    />
+
+    {/* 핵심 생활권 */}
+    <section class="section" style="border-top: 1px solid var(--color-border);">
+      <h2 class="section-title">서울 핵심 생활권</h2>
+      <p class="section-subtitle">
+        행정구가 아닌 실제 생활권 단위로 방문 특성과 출입 환경을 확인하세요.
+      </p>
+      <div class="card-grid">
+        {seoulAreas.map((area) => <LifeAreaCard area={area} />)}
+      </div>
+    </section>
+
+    {/* 서울 콘텐츠 방향 (스펙 5절) */}
+    <section class="section" style="border-top: 1px solid var(--color-border);">
+      <h2 class="section-title">서울 지역별 방문 특성</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3 class="card__title">강남·서초</h3>
+          <p class="card__desc">업무지구, 오피스텔, 호텔, 역세권 중심. 퇴근 후 건강 관리 수요가 높습니다.</p>
+        </div>
+        <div class="card">
+          <h3 class="card__title">송파</h3>
+          <p class="card__desc">잠실, 문정, 가락, 위례 생활권 중심. 대규모 주거 단지와 상업 시설 혼합형.</p>
+        </div>
+        <div class="card">
+          <h3 class="card__title">마포</h3>
+          <p class="card__desc">홍대, 합정, 연남, 공덕 숙소·상권 중심. 공항 접근성으로 출장객 수요 높음.</p>
+        </div>
+        <div class="card">
+          <h3 class="card__title">영등포</h3>
+          <p class="card__desc">여의도, 영등포역, 당산, 문래 업무지구 중심. 금융·상업 복합 생활권.</p>
+        </div>
+        <div class="card">
+          <h3 class="card__title">용산</h3>
+          <p class="card__desc">용산역, 한남, 이태원, 서울역 숙소·외국인 생활권 중심.</p>
+        </div>
+        <div class="card">
+          <h3 class="card__title">은평·노원·중랑</h3>
+          <p class="card__desc">주거 생활권 중심. 주택가와 오피스텔에서의 가족 단위 수요.</p>
+        </div>
+      </div>
+    </section>
+
+    {/* 예약 전 체크리스트 */}
+    <section class="section" style="border-top: 1px solid var(--color-border);">
+      <Checklist />
+    </section>
+
+  </div>
+</BaseLayout>

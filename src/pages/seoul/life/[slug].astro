@@ -1,0 +1,138 @@
+---
+/**
+ * 서울 생활권 상세 페이지 자동 생성
+ * /seoul/life/[slug]/  ← getReadyLifeAreas('seoul') 의 ready 항목만 생성
+ *
+ * 스펙 11절 생활권 템플릿 + 12절 중복 방지 기준 준수
+ */
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import FAQ from '../../../components/FAQ.astro';
+import Checklist from '../../../components/Checklist.astro';
+import RelatedAreas from '../../../components/RelatedAreas.astro';
+import { getReadyLifeAreas, PROVINCE_LABEL } from '../../../lib/data';
+import type { LifeArea, UseCaseSlug } from '../../../lib/types';
+import {
+  webPageSchema,
+  breadcrumbSchema,
+  faqPageSchema,
+} from '../../../lib/schema';
+
+export const getStaticPaths = (() => {
+  const areas = getReadyLifeAreas('seoul');
+  return areas.map((area) => ({
+    params: { slug: area.slug },
+    props: { area },
+  }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  area: LifeArea;
+}
+
+const { area } = Astro.props;
+const path = area.canonicalUrl;
+const title = `서울 ${area.name} 출장마사지｜방문 가능 지역 및 예약 전 확인사항`;
+const description = `서울 ${area.name} 생활권 출장마사지 방문 가능 지역과 예약 전 확인사항. ${area.description}`;
+
+const breadcrumbs = [
+  { name: '홈', url: '/' },
+  { name: '서울', url: '/seoul/' },
+  { name: area.name, url: path },
+];
+
+const schemas = [
+  breadcrumbSchema(breadcrumbs),
+  webPageSchema(path, title, description, breadcrumbs),
+  faqPageSchema(area.faq ?? []),
+];
+
+const UC_LABEL: Record<UseCaseSlug, string> = {
+  home: '자택 이용',
+  hotel: '호텔·숙소 이용',
+  officetel: '오피스텔 이용',
+  'business-district': '업무지구 이용',
+  'station-area': '역세권 이용',
+  night: '야간 예약',
+  'outer-area': '외곽 지역 이용',
+};
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path={path}
+  noindex={area.noindex}
+  schemas={schemas}
+>
+  <div class="container container-narrow">
+    <Breadcrumbs items={breadcrumbs} />
+
+    {/* 헤더 */}
+    <section style="padding: 24px 0 32px;">
+      <div class="tag tag-primary" style="margin-bottom: 14px;">
+        {PROVINCE_LABEL[area.province]} 생활권 · {area.contentFocus}
+      </div>
+      <h1 style="font-size: 2rem; font-weight: 800; line-height: 1.35; margin-bottom: 14px;">
+        서울 {area.name} 출장마사지 · 방문 가능 지역
+      </h1>
+      <p style="color: var(--color-text-soft); font-size: 1.05rem;">
+        {area.description}
+      </p>
+    </section>
+
+    {/* 본문 */}
+    <section class="section-sm" style="border-top: 1px solid var(--color-border);">
+      <div class="prose">
+        <p set:html={(area.body ?? '').replace(/\n/g, '<br />')}></p>
+      </div>
+    </section>
+
+    {/* 포함 지역 & 가까운 역 */}
+    <section class="section-sm" style="border-top: 1px solid var(--color-border);">
+      <h2 class="section-title">이 생활권에 포함된 지역</h2>
+      <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+        {area.includes.map((item) => <span class="tag">{item}</span>)}
+      </div>
+      {area.nearbyStations && area.nearbyStations.length > 0 && (
+        <>
+          <h3 style="font-size: 1.1rem; font-weight: 600; margin: 24px 0 12px;">가까운 역</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+            {area.nearbyStations.map((s) => <span class="tag tag-primary">{s}</span>)}
+          </div>
+        </>
+      )}
+    </section>
+
+    {/* 이용 장소별 확인 */}
+    <section class="section-sm" style="border-top: 1px solid var(--color-border);">
+      <h2 class="section-title">이용 장소별 확인사항</h2>
+      <div class="card-grid">
+        {area.useCases.map((uc) => (
+          <a href={`/use/${uc}/`} class="card">
+            <h3 class="card__title" style="font-size: 1.05rem;">{UC_LABEL[uc]}</h3>
+            <span class="card__link">확인하기 →</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    {/* 예약 전 체크리스트 */}
+    <section class="section-sm" style="border-top: 1px solid var(--color-border);">
+      <Checklist />
+    </section>
+
+    {/* 관련 지역 보기 */}
+    <RelatedAreas current={area} province="seoul" />
+
+    {/* FAQ */}
+    {area.faq && area.faq.length > 0 && (
+      <section class="section-sm" style="border-top: 1px solid var(--color-border);">
+        <h2 class="section-title" style="font-size: 1.5rem;">자주 묻는 질문</h2>
+        <FAQ faqs={area.faq} />
+      </section>
+    )}
+
+  </div>
+</BaseLayout>
